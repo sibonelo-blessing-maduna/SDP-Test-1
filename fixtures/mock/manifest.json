@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-06T13:32:52+00:00",
-  "source": "repo-references/*.csv (+ optional data/repos clones)",
+  "generated_at_utc": "2026-10-06T14:01:18+00:00",
+  "source": "repo-references/*.csv (+ data/repos clones; synthetic commits/series when absent)",
   "repos": [
     {
       "id": "cjson",
@@ -14,10 +14,7 @@
       "files_count": 245,
       "dirs_count": 45,
       "error": null,
-      "fixtures": {
-        "commits": true,
-        "series": true
-      },
+      "commits_source": "data/repos/cJSON clone",
       "note": null
     },
     {
@@ -32,11 +29,8 @@
       "files_count": 2863,
       "dirs_count": 204,
       "error": null,
-      "fixtures": {
-        "commits": false,
-        "series": false
-      },
-      "note": "commits/series absent: clone data/repos/redis"
+      "commits_source": "data/repos/redis clone",
+      "note": null
     },
     {
       "id": "git",
@@ -50,11 +44,8 @@
       "files_count": 7319,
       "dirs_count": 295,
       "error": null,
-      "fixtures": {
-        "commits": false,
-        "series": false
-      },
-      "note": "commits/series absent: clone data/repos/git"
+      "commits_source": "data/repos/git clone",
+      "note": null
     }
   ]
 }
