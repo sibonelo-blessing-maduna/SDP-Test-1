@@ -21,3 +21,6 @@ data/
 
 # Qoder IDE local state
 .qoder/
+
+# agent worktrees
+.worktrees/
