@@ -8,10 +8,10 @@ reproduce the reference CSVs **exactly** for cJSON → redis → git.
 
 ## Pinned semantics (empirically verified — do not "improve" these)
 1. `git rev-list --no-merges <ref>` = H̄; `commit_count` = |H̄| including commits with no changes.
-2. Single streaming pass: `git log --no-merges --numstat -z -M50% --format='<sentinel>%H<us>%ct<us>%an <%ae><us>%s' <ref>`.
+2. Single streaming pass: `git log --no-merges --numstat -z -M50% --format='<sentinel>%H<us>%ct<us>%aN <%aE><us>%s' <ref>`.
    **Never path-filter** (history simplification silently drops commits).
-3. Attribute every entry verbatim to its path; rename pairs → **new path**; skip binaries (`-`).
-4. Author = `%an <%ae>` raw; dates = `%ct`; no mailmap by default (merge overlay is read-time, Contract B).
+3. Attribute every entry verbatim to its path; nonzero renames → **new path**; `0/0` pure renames → touch markers on **both** old and new paths; skip binaries (`-`).
+4. Author = `%aN <%aE>` mailmap-canonical (the reference oracle is mailmap-aware); dates = `%ct`; user-level merging stays a read-time overlay (Contract B).
 5. Materialise per-commit directory rollups incl. root `/` (needed for exact `modifications` counts).
 6. `modifications` counts commits with λ>0; 0/0 entries (pure renames) create an all-zero ALL row but no author rows (author rows need churn > 0).
 7. Floats exported with Python `repr()`; rates use multiply-by-reciprocal `x * (1/|H|)` — direct division is 1 ulp off.

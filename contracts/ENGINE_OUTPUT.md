@@ -19,7 +19,7 @@ repo,ref_sha,commit_set,commit_count,object_type,path,author,added,removed,growt
 | `commit_count` | int | \|H\| — number of commits *selected* (not only changed), non-merge reachable from `ref_sha` |
 | `object_type` | enum | `repository` \| `directory` \| `file` |
 | `path` | str | `/` for repository; repo-relative path otherwise (e.g. `src/a.c`, `.github`) |
-| `author` | str | `ALL` for the aggregate row; else raw `Name <email>` (verbatim from git, **no mailmap by default**) |
+| `author` | str | `ALL` for the aggregate row; else canonical `Name <email>` from `%aN <%aE>` — **mailmap-aware** (repos without `.mailmap` are unaffected) |
 | `added` | int | Σ l⁺ over H |
 | `removed` | int | Σ l⁻ over H |
 | `growth` | int | Σ δ = added − removed |
@@ -40,9 +40,9 @@ Rows ordered as: repository rows, then directories (path asc), then files (path 
 
 1. Universe H̄: `git rev-list --no-merges <ref>` — `commit_count` = its size.
 2. Per-commit entries: `git log --no-merges --numstat -z -M50% <ref>` — **never path-filtered** (path filters invoke history simplification and drop commits).
-3. Attribution: every numstat entry is attributed **verbatim to its path** (`$path` field). Rename pairs detected at 50% similarity are attributed to the **new path**; `0/0` entries (pure renames) are kept as touch markers — they create the new-path object (all-zero `ALL` row) but **no author rows**. Do not create synthetic `old => new` paths.
+3. Attribution: every numstat entry is attributed **verbatim to its path** (`$path` field). Nonzero rename pairs detected at 50% similarity are attributed to the **new path** only; `0/0` entries (pure renames) are kept as touch markers on **both sides** — old and new paths each get an all-zero `ALL` row and **no author rows**. Do not create synthetic `old => new` paths.
 4. Binary entries (`-\t-\t...`) are skipped entirely.
-5. Author identity: `%an <%ae>` verbatim; committer date `%ct` for all time filters.
+5. Author identity: `%aN <%aE>` — mailmap-canonical (git repo collapses 2807 raw identities to the reference's 2498); committer date `%ct` for all time filters. Non-UTF-8 name bytes are decoded with `errors="replace"`.
 6. Directory rows = rollup over every ancestor directory (including `/`) of each changed file, **per commit** (needed for correct `modifications` counting).
 7. `modifications`: count commits where λ>0 — a pure mode change / pure `0/0` rename is *not* a modification (it produces only the all-zero ALL row).
 8. Author rows: per `(path, author)` sums over that author's commits; emitted **only when the author's total churn for the object is > 0**; `ownership = churn_a / churn_ALL`.
