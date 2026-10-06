@@ -1,7 +1,7 @@
 """Streaming scanner: git history -> Contract B store.
 
 Pinned recipe (see contracts/ENGINE_OUTPUT.md §2):
-    git log --no-merges --numstat -z -M50% --format='<US>%H..%ct..%an <%ae>..%s' <ref>
+    git log --no-merges --numstat -z -M50% --format='<US>%H..%ct..%aN <%aE>..%s' <ref>
 NUL-separated wire format:
   * commit header: text line, fields separated by \\x1f, sentinel \\x02 at start
   * entries: b"<added>\\t<removed>\\t<path>" bested by NUL
@@ -21,7 +21,7 @@ from . import __version__, store
 
 SENTINEL = b"\x02"
 FIELD_SEP = b"\x1f"
-LOG_FORMAT = "%x02%H%x1f%ct%x1f%an <%ae>%x1f%s"
+LOG_FORMAT = "%x02%H%x1f%ct%x1f%aN <%aE>%x1f%s"  # %aN/%aE: mailmap-canonical, matches the reference oracle
 
 
 def resolve_ref(repo, ref: str = "HEAD") -> str:
@@ -49,10 +49,10 @@ def _parse_piece(piece: bytes):
         return None
     sha, ct, author, subject = fields
     commit = {
-        "sha": sha.decode("utf-8", "surrogateescape"),
+        "sha": sha.decode("utf-8", "replace"),
         "ct": int(ct),
-        "author": author.decode("utf-8", "surrogateescape"),
-        "subject": subject.decode("utf-8", "surrogateescape"),
+        "author": author.decode("utf-8", "replace"),
+        "subject": subject.decode("utf-8", "replace"),
     }
     chunks = ([rest] if rest else []) + parts[1:]
     entries = []
@@ -76,10 +76,10 @@ def _parse_piece(piece: bytes):
             # rename entry: next two chunks are old path, new path
             if i + 2 >= n:
                 break
-            new_b = chunks[i + 2]
+            old_b, new_b = chunks[i + 1], chunks[i + 2]
             i += 3
         else:
-            new_b = path_b
+            old_b, new_b = None, path_b
             i += 1
         if added_b == b"-":  # binary: not measured
             continue
@@ -87,9 +87,12 @@ def _parse_piece(piece: bytes):
             added, removed = int(added_b), int(removed_b)
         except ValueError:
             continue
-        # 0/0 entries (pure renames) are kept as touch markers: they create the object
-        # (all-zero ALL row) but contribute no author rows (enforced in metrics).
-        entries.append((added, removed, new_b.decode("utf-8", "surrogateescape")))
+        # 0/0 entries (pure renames) are kept as touch markers on BOTH paths: each side
+        # becomes an all-zero object (ALL row only, no author rows — enforced in metrics).
+        # Nonzero renames are attributed to the new path only.
+        if old_b is not None and added == 0 and removed == 0 and old_b != new_b:
+            entries.append((0, 0, old_b.decode("utf-8", "replace")))
+        entries.append((added, removed, new_b.decode("utf-8", "replace")))
     return commit, entries
 
 
@@ -134,10 +137,14 @@ def _flush(conn, commits: list, files: list, dirs: list) -> None:
 
 
 def scan(repo, db, name: str | None = None, ref: str = "HEAD",
-         source: str | None = None, quiet: bool = False) -> dict:
+         source: str | None = None, quiet: bool = False, progress=None) -> dict:
+    """Walk history into the store. `progress(done, total)` is called during the scan."""
     t0 = time.time()
     repo = Path(repo)
     ref_sha = resolve_ref(repo, ref)
+    total = int(subprocess.run(
+        ["git", "-C", str(repo), "rev-list", "--no-merges", "--count", ref_sha],
+        capture_output=True).stdout or 0)
     conn = store.connect(db)
     store.reset(conn)
 
@@ -151,6 +158,11 @@ def scan(repo, db, name: str | None = None, ref: str = "HEAD",
     last_report = t0
     for commit, entries in iter_stream(proc.stdout):
         n_commits += 1
+        if progress and n_commits % 200 == 0:
+            try:
+                progress(n_commits, total)
+            except Exception:
+                pass
         pending_c.append((commit["sha"], commit["ct"], commit["author"], commit["subject"]))
         files, dirs = {}, {}
         for added, removed, path in entries:
@@ -198,6 +210,11 @@ def scan(repo, db, name: str | None = None, ref: str = "HEAD",
     })
     store.log(conn, "info", f"scanned {n_commits} commits, {n_files} file-entries, "
                             f"{n_dirs} dir-entries in {time.time() - t0:.1f}s")
+    if progress:
+        try:
+            progress(n_commits, total or n_commits)
+        except Exception:
+            pass
     summary = {"commits": n_commits, "file_entries": n_files, "dir_entries": n_dirs,
                "seconds": round(time.time() - t0, 2), "ref_sha": ref_sha}
     if not quiet:

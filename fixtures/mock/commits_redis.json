@@ -1,0 +1,1202 @@
+[
+  {
+    "sha": "7f440372365fd5c55177d6f27923080078bd4e27",
+    "ct": 1791293739,
+    "author": "kei-nan <jonathan.keinan@redis.com>",
+    "subject": "Vector Sets: bound serialized max links by the index M (#15906)"
+  },
+  {
+    "sha": "b540ca49cba815f3fbe634363c3df68d4f4f127a",
+    "ct": 1790769731,
+    "author": "Changqi Hu <huchangqiqi@gmail.com>",
+    "subject": "Add USE_PROCESSOR_CLOCK for LoongArch64 (#15769)"
+  },
+  {
+    "sha": "8bc1c4e147761e7c9d6ff1bb92248b9d4dda43ab",
+    "ct": 1790769396,
+    "author": "Arpit Jaswal <iamarpitjaswal@gmail.com>",
+    "subject": "tls: replace deprecated X509_NAME_get_text_by_NID API (#15227)"
+  },
+  {
+    "sha": "7f0b7bfa01f1545dedae43f4d3ee3bc16d590b9e",
+    "ct": 1790753515,
+    "author": "Jeston Singh <sjestonsingh@gmail.com>",
+    "subject": "Wake BLMOVEM EXACTLY when a module grows an existing list (#15876)"
+  },
+  {
+    "sha": "790d459f0970ac6eedf1cbe808a45d8460475610",
+    "ct": 1790689389,
+    "author": "Federico Laurianti <laurianti@gmail.com>",
+    "subject": "Fix ARLASTITEMS dropping elements past a hole (#15875)"
+  },
+  {
+    "sha": "62f115f2950219a44d04b54dff30e58b6e52ff61",
+    "ct": 1790688721,
+    "author": "Filipe Oliveira (Redis) <filipe@redis.com>",
+    "subject": "ZSCAN: avoid temporary member and score allocations (#15822)"
+  },
+  {
+    "sha": "e336bde4afc1616ffe9ff6abf04690ceae0edd90",
+    "ct": 1790678721,
+    "author": "Moti Cohen <moticless@gmail.com>",
+    "subject": "Fix RM_CreateKeyMetaClass() API documentation (#15853)"
+  },
+  {
+    "sha": "49c51af97564dbe85fca1532ade816507b7a1be3",
+    "ct": 1790664177,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "MOD-18905 - Include version tags in GitHub release tarball names (#15877)"
+  },
+  {
+    "sha": "0d17e7b453f0475890cd442c04d70ef01a2ff1cd",
+    "ct": 1790605022,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Use monotonic time for blocking timeouts and module timers (#15743)"
+  },
+  {
+    "sha": "4cb007b95438970511e2fe05e4c4c05f17c7e727",
+    "ct": 1790580882,
+    "author": "Oran Agra <oran@redislabs.com>",
+    "subject": "Explain a test [TIMEOUT] instead of killing it silently (#15879)"
+  },
+  {
+    "sha": "a19458ddecf559bdc205901aac4fc41a8143c7a6",
+    "ct": 1790573977,
+    "author": "Stav-Levi <45394834+StavRLevi@users.noreply.github.com>",
+    "subject": "Preserve RESP3 protocol across reconnects/redirection (#15806)"
+  },
+  {
+    "sha": "8623fade2008754962316cecdba1f71ee103bdd8",
+    "ct": 1790566897,
+    "author": "neoLsH <43921685+neoLsH@users.noreply.github.com>",
+    "subject": "Fix spurious error log on graceful TLS client shutdown (#15758)"
+  },
+  {
+    "sha": "8bf7cb9e28e7f3b5ebd7f286feb2c44b80ab7503",
+    "ct": 1790296204,
+    "author": "AditSingh10 <singh.adit6@gmail.com>",
+    "subject": "Retire the legacy cluster test runner"
+  },
+  {
+    "sha": "57a5187c7ff3ee53e4361ff7fee9178f52e091e7",
+    "ct": 1790296185,
+    "author": "AditSingh10 <singh.adit6@gmail.com>",
+    "subject": "Adapt the moved cluster tests to the normal framework"
+  },
+  {
+    "sha": "d430bf3c088ffb86e5503d235bfddc4d942cacda",
+    "ct": 1790296185,
+    "author": "AditSingh10 <singh.adit6@gmail.com>",
+    "subject": "Move the cluster tests into the normal framework directory"
+  },
+  {
+    "sha": "20bb2cfc54aa08c8fdfb8c4c0a8b8258e811711e",
+    "ct": 1790277361,
+    "author": "alonre24 <alon.reshef@redis.com>",
+    "subject": "Bump RediSearch module version to v8.11.80 towards 8.12 MS2 (#15867)"
+  },
+  {
+    "sha": "494a08302084e4d45a49003439b6996ca8d4f9c4",
+    "ct": 1790252644,
+    "author": "Oran Agra <oran@redislabs.com>",
+    "subject": "Fix log-wait races and a no-op cleanup in tests/integration/aof.tcl (#15854)"
+  },
+  {
+    "sha": "09577d6bd79b8276ed6db4817d7f7c425c0b10b5",
+    "ct": 1790221400,
+    "author": "Tom Gabsow <tom.gabsow@redis.com>",
+    "subject": "Restore unstable version and release notes placeholder (#15833)"
+  },
+  {
+    "sha": "41e6a37ac7ae166627603fbe92f669b38c225db9",
+    "ct": 1790220974,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix close an unopened AOF file during shutdown (#15827)"
+  },
+  {
+    "sha": "5418bb1e00a0ea7914d27fd56c82c7e48343f27f",
+    "ct": 1790219642,
+    "author": "pirate329 <amankumar020003@gmail.com>",
+    "subject": "Fix protocol error not reported when a command is split across reads (#15795)"
+  },
+  {
+    "sha": "7a72677e622da5270f4488ef5872c0d8ab8aca91",
+    "ct": 1790147681,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Hint sequential access when loading RDB and AOF files (#15782)"
+  },
+  {
+    "sha": "f12f2a1e0f9ac47c1bbd356a95ac49b59d28012e",
+    "ct": 1790123131,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix Sentinel 100% CPU busy-loop on async socket error (EPOLLERR) (#15107)"
+  },
+  {
+    "sha": "c3215f019a4c11c35d438f241114e94730fe39e5",
+    "ct": 1790037793,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "CI remove unused redis_docs_sync workflow (#15816)"
+  },
+  {
+    "sha": "0d6266f2deb9c401b686898e263ebd6fe35bc2b0",
+    "ct": 1789976648,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Fix XTRIM leaving a 0-live stream node that RDB cannot load (#15815)"
+  },
+  {
+    "sha": "62d1a5b930ed3861e62c7062c5b62db1b40f2886",
+    "ct": 1789935061,
+    "author": "Serhiy Bzhezytskyy <me@serhiy-bzhezytskyy.com>",
+    "subject": "Make ASM tests work with --single (#15636)"
+  },
+  {
+    "sha": "5f08991bce470ab721f10d7f815baad49f3aae60",
+    "ct": 1789888885,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix argument release race in the AOF duration test module (#15805)"
+  },
+  {
+    "sha": "c00f920b2a3d849b6646c17ef6575e1762865fa4",
+    "ct": 1789884930,
+    "author": "Yves LeBras <ylb415+github@gmail.com>",
+    "subject": "redis-cli: use CLIENT NO-TOUCH for key size analysis (#15817)"
+  },
+  {
+    "sha": "16e021b465fbbc73d5f070b4da5ce9f5ee4baea1",
+    "ct": 1789646333,
+    "author": "Omri Ben-Gidon <47712555+omrib1@users.noreply.github.com>",
+    "subject": "RED-214919 Test loading cluster config without shard IDs (#15757)"
+  },
+  {
+    "sha": "7c641d81b0ebe89c02ecdc73d504176225c55b3d",
+    "ct": 1789633024,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix test AOF duration more tolerance for Mac sleep delay (#15814)"
+  },
+  {
+    "sha": "2b32b178886730db1640ea641ceb99c3c4c9f059",
+    "ct": 1789612368,
+    "author": "alonre24 <alonreshef24@gmail.com>",
+    "subject": "Bump redisearch module to v8.10.1 (#15811)"
+  },
+  {
+    "sha": "07a33b919581e2b0663e34731a490d768e553dfa",
+    "ct": 1789543199,
+    "author": "Moti Cohen <moticless@gmail.com>",
+    "subject": "Remove unused EB_BUCKET_KEY_PRECISION machinery from ebuckets (#15725)"
+  },
+  {
+    "sha": "b78a80bd1fe41f6656bf62d34f4ce4fb7e665dae",
+    "ct": 1789473428,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Make an unauthenticated cluster bus port an explicit choice (#15722)"
+  },
+  {
+    "sha": "51913f6923875e26c7c7284ae0b10d0528d73900",
+    "ct": 1789458692,
+    "author": "yinon-bit <yinon.yishay@redis.com>",
+    "subject": "Add aof_cmd_duration estimate for AOF reload RTO visibility"
+  },
+  {
+    "sha": "b9800e06b2109ac1319ebc7ba72034da2ba1d10d",
+    "ct": 1789455787,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "RED-211767 - Add BLESS \u2014 protect keys from eviction (#15649)"
+  },
+  {
+    "sha": "864780a68b1bb794082dcbbaf8306cb23df24893",
+    "ct": 1789362004,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Avoid flaky HPEXPIRETIME persistence test after slow RDB reload (#15714)"
+  },
+  {
+    "sha": "669b2a1316f5b35ecf964281b77c054ff28dc934",
+    "ct": 1789042343,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "Fix --bigkeys/--keystats not reporting the biggest key when its size is 0 (#15762)"
+  },
+  {
+    "sha": "21ce96878529bf8b31298ec417407c578c1e6278",
+    "ct": 1788983372,
+    "author": "Aviv David <40210928+AvivDavid23@users.noreply.github.com>",
+    "subject": "Update redisbloom module reference to v8.11.81 (#15771)"
+  },
+  {
+    "sha": "e81bc873dc26127200a2511e3f94c3585fc042b5",
+    "ct": 1788979601,
+    "author": "Moti Cohen <moticless@gmail.com>",
+    "subject": "Repurpose the kvobj key-header byte into kvBits: 2 bits of sds type + 6 free bits (#15772)"
+  },
+  {
+    "sha": "dce0c76d4fc34fa4c56f1003aafbd9f6364c8fb4",
+    "ct": 1788938795,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix SETBIT and BITFIELD string growth accounting (#15699)"
+  },
+  {
+    "sha": "48cc562064dbb52ef3f9cc1a5aa32db6811f5871",
+    "ct": 1788828201,
+    "author": "JunHwan <devjunsday@gmail.com>",
+    "subject": "Fix overflowing relative TTL in RESTORE (#15756)"
+  },
+  {
+    "sha": "3d15ede58ad862996f9b23d3500cad2a5c7fb0f4",
+    "ct": 1788817111,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Align lzf_compress to a cache line to stabilize BGSAVE performance on x86-64 (#15741)"
+  },
+  {
+    "sha": "d340f9c68c2e76ad9265955fcbf4b6f25d4c68d4",
+    "ct": 1788794545,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "Honor selective propagation for effect commands queued via alsoPropagate() (#15695)"
+  },
+  {
+    "sha": "0b0d1784b8c87223e03fe010061765b7d5b08ee2",
+    "ct": 1788781440,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "MOD-18280 - make install default build (#15754)"
+  },
+  {
+    "sha": "60b4364fef859de5c639546bcdd08091876f502c",
+    "ct": 1788766265,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Fix invalid slot range merging into a valid one (#15733)"
+  },
+  {
+    "sha": "de9f40ad48475bc754ea4af6c177286d0b4d1587",
+    "ct": 1788505370,
+    "author": "Gimin Kim <138752849+Gimini-3@users.noreply.github.com>",
+    "subject": "Make LMOVEM notifications consistent with LMOVE (#15587)"
+  },
+  {
+    "sha": "ceadaab2be6770d6c5faab1e0b4f57f0d5130cc4",
+    "ct": 1788373250,
+    "author": "Aviv David <40210928+AvivDavid23@users.noreply.github.com>",
+    "subject": "Update redisbloom module reference to v8.11.80 (#15742)"
+  },
+  {
+    "sha": "a74583187e3b771146343ce22114e85ac4e2fbbb",
+    "ct": 1788350834,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Fix couple of flaky tests (#15740)"
+  },
+  {
+    "sha": "4602d6e93e030efdc48f94dc2e3d3f9f32e7c72d",
+    "ct": 1788244834,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix falky test XREADGROUP CLAIM idle time resets after RDB reload (#15731)"
+  },
+  {
+    "sha": "c6a761c29032d1f300bde08f159fd67d78238952",
+    "ct": 1788186535,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Avoid the active-expire test reset race (#15723)"
+  },
+  {
+    "sha": "e1d7d50f9c244ce52f724b279fcb19773fffa98c",
+    "ct": 1787902775,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Document and warn about leading dots in `tls-expected-peer-name` (#15684)"
+  },
+  {
+    "sha": "c12a522e47be65fab80f114689c22f564ffce6a5",
+    "ct": 1787837858,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Refactor ASM slot trimming (#15678)"
+  },
+  {
+    "sha": "f306bc31a93033551d29190ac6247f71f824cf3d",
+    "ct": 1787832333,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Stabilize ASM write pause timeout test under TSan (#15716)"
+  },
+  {
+    "sha": "8259bc69a679c8f4fa346bf9b0c100f6c86802cc",
+    "ct": 1787808015,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "MOD-17685 - fix make install & add make uninstall  (#15650)"
+  },
+  {
+    "sha": "65b76e36150abce2f03dafc231d908ecba9d3057",
+    "ct": 1787796653,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix reclaim-cache CI (#15715)"
+  },
+  {
+    "sha": "ef412c201b1b78a0d002324388bf44863aef6920",
+    "ct": 1787782607,
+    "author": "RoyBenMoshe <112958533+RoyBenMoshe@users.noreply.github.com>",
+    "subject": "Enforce the ASM write-pause timeout before handing off slot ownership (#15629)"
+  },
+  {
+    "sha": "b1b5c851671b44da8b01390a73adf6d871cc2041",
+    "ct": 1787756979,
+    "author": "Filipe Oliveira (Redis) <filipe@redis.com>",
+    "subject": "Route monotonic clock fallback diagnostics through serverLog instead of stderr (#15710)"
+  },
+  {
+    "sha": "1c6fa3748fed39644549e87527cda3b795ba440a",
+    "ct": 1787663833,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix gcov CI warnings and failures in multi-threaded coverage (#15634)"
+  },
+  {
+    "sha": "d0d857885a5e2be4c955fce7a9f3d7b700a9fbfa",
+    "ct": 1787657727,
+    "author": "Ronen Kalish <ronen.kalish@redis.com>",
+    "subject": "Fix ACL key permissions not being rechecked at EXEC time (#15673)"
+  },
+  {
+    "sha": "80920a7d3c31af87c233482b64a282ae3a001b94",
+    "ct": 1787626963,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Prevent data loss after cross-shard replica migration (#15680)"
+  },
+  {
+    "sha": "6331fbeaf01a4eaf96f71d86cc28a1717d90c218",
+    "ct": 1787577766,
+    "author": "Filipe Oliveira (Redis) <filipe@redis.com>",
+    "subject": "Enable x86 TSC monotonic clock by default with runtime calibration (#15018)"
+  },
+  {
+    "sha": "86c0e60769812557ecf38bcdcd1c70010efebf20",
+    "ct": 1787479106,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix tls-groups test to match handshake error wording across OpenSSL platforms (#15689)"
+  },
+  {
+    "sha": "78432ed8e48aba009721a15a88ea8f5c9597b8e5",
+    "ct": 1787237116,
+    "author": "AliasJeff <77962635+AliasJeff@users.noreply.github.com>",
+    "subject": "Add tls-groups to control TLS named groups (#15556)"
+  },
+  {
+    "sha": "065d397030712fe216e795720ae0affd3211212c",
+    "ct": 1787117058,
+    "author": "h.o.t. neglected <yangbo.long.mav@gmail.com>",
+    "subject": "Fix integer overflow on out-of-range numkeys (#15408)"
+  },
+  {
+    "sha": "7f90b83e35b59555aabf401f11a5888445e248f8",
+    "ct": 1787110214,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Use the common ASM API to complete tasks after legacy cluster slot updates (#15671)"
+  },
+  {
+    "sha": "d3abc02fed6664cc0afaf9ffe4e172a99e274f44",
+    "ct": 1787109662,
+    "author": "kei-nan <jonathan.keinan@redis.com>",
+    "subject": "Drain post-notification jobs after active hash-field expiration (#15623)"
+  },
+  {
+    "sha": "d22066d0989bca050f0450d221b8d9933960fd13",
+    "ct": 1787053943,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Fix TLS client-cert CN auth bypass via embedded NUL byte (#1476)"
+  },
+  {
+    "sha": "162b6be9686109af7b6e8ad90fcb1ad6ad753b7b",
+    "ct": 1787053943,
+    "author": "itzik.vaknin@redis.com <itzikvaknin6@gmail.com>",
+    "subject": "Vector Sets: harden VSIM_execute against negative hnsw_search return"
+  },
+  {
+    "sha": "e5b079d0ee68f15a3ffef0ffcd7a4fc9f0b5065b",
+    "ct": 1787053943,
+    "author": "itzik.vaknin@redis.com <itzikvaknin6@gmail.com>",
+    "subject": "MOD-16035: Fix VSIM/VREM race in Vector Sets"
+  },
+  {
+    "sha": "b599b1cc2e1f874ad2172d156118c5a0de790b0f",
+    "ct": 1787053943,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "VDP-4971 Vector Sets RDB load \u2014 missing `level` cap in `hnsw_insert_serialized` (illegal `max-level` / resource risk) (#1464)"
+  },
+  {
+    "sha": "5b9b1660e0a327e4605c41cdf878bd931d0473e7",
+    "ct": 1787053943,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Check slotinfo range when loading RDB (#1541)"
+  },
+  {
+    "sha": "d711b06a56dad375369622b8754be9681e09a3b8",
+    "ct": 1787053943,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Fix use-after-free in tlsProcessPendingData() pending-list iteration (#1391)"
+  },
+  {
+    "sha": "ead4b4e4b7f3d612615a20155715238365dd2f89",
+    "ct": 1787030565,
+    "author": "SHUN.LEE <aaddss639@naver.com>",
+    "subject": "Fix replica left as a sub-replica after a failover (#15530)"
+  },
+  {
+    "sha": "9ab2ab6960d0f76bd6027a173851c334256051c0",
+    "ct": 1787023698,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "Derive keysizes histogram row count from an enum (#15637)"
+  },
+  {
+    "sha": "7a89999232676fe7d661ddc1d2cd122d9cbade3a",
+    "ct": 1787022958,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Add 8.8 and 8.10 into the supported versions (#15670)"
+  },
+  {
+    "sha": "357ed104559ec654b1829625785c0172e328eccb",
+    "ct": 1787018741,
+    "author": "Yuwei Zhao <zhaoyuweiteddy@163.com>",
+    "subject": "Mark listpack entry boundary check as unlikely (#15584)"
+  },
+  {
+    "sha": "303c28270e9e60c99d6b25947dd2d28e4bc336a1",
+    "ct": 1786963582,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Improve batch mutation performance of hash template keys (#15618)"
+  },
+  {
+    "sha": "bc1589a1ee5851642a3df7661e6bd4a2989ef255",
+    "ct": 1786959844,
+    "author": "Aviv David <40210928+AvivDavid23@users.noreply.github.com>",
+    "subject": "Update redisbloom module reference to v8.10.1 (#15651)"
+  },
+  {
+    "sha": "524129a7175e8ef58e1bc666601fb432f31e70e0",
+    "ct": 1786907910,
+    "author": "GuyAv46 <47632673+GuyAv46@users.noreply.github.com>",
+    "subject": "Add REDISMODULE_NODE_PORT_TLS flag to RM_GetClusterNodeInfo() (#15517)"
+  },
+  {
+    "sha": "5e55298a58da76f42b2939f1f4472b37b1c7198e",
+    "ct": 1786906594,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Fix potential defrag issues in the hash template registry (#15628)"
+  },
+  {
+    "sha": "cbdad795d8d75746e501aae06f14a3398bd190a2",
+    "ct": 1786618336,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Add stream support to INFO keysizes histograms (#15374)"
+  },
+  {
+    "sha": "1b8c472274fc1398f9cb86a1d93fa96038383e1e",
+    "ct": 1786589011,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix overflowing relative expiration times in SET (#15626)"
+  },
+  {
+    "sha": "c3f78e4b850915ace818cc51bff8a0cbf1317d94",
+    "ct": 1786524630,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Avoid resizing slot dict during atomic slot import (#15605)"
+  },
+  {
+    "sha": "4f20cb48934463db5970bd476461b2d57af3f38d",
+    "ct": 1786353446,
+    "author": "JongsuPark <pjs7678@gmail.com>",
+    "subject": "Fix unloadable RDB when XSETID lowers entries_added (#15489)"
+  },
+  {
+    "sha": "8f365337d48c8a264bc9f3381c7b8cc12ffb51d2",
+    "ct": 1786197070,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Fix hashTypeAllocSize() for TMPL_ARRAY (#15604)"
+  },
+  {
+    "sha": "5412afd55c3fa8db45102b293b563138ff3aa12c",
+    "ct": 1786096544,
+    "author": "Filipe Oliveira (Redis) <filipe@redis.com>",
+    "subject": "networking: assemble bulk reply frame in one pass in addReplyBulkCBuffer (#15313)"
+  },
+  {
+    "sha": "5d67a63a0a7ee71a6521798e3fbfdff39851b8ff",
+    "ct": 1786066716,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Move common topology change handling into the cluster layer (#15197)"
+  },
+  {
+    "sha": "a8edcfc98c50bb01c850e5dab3998ce57807144d",
+    "ct": 1786006351,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Fix use-after-free in handleClientsBlockedOnKey (#15594)"
+  },
+  {
+    "sha": "5a5345952b8edfee3307902fbecc46a08ca43d0f",
+    "ct": 1786002863,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Use HTTPS for download.redis.io in releasetools (#15596)"
+  },
+  {
+    "sha": "de113ec4dabcc8e3a5c818fe8cf9065178fecb48",
+    "ct": 1785991208,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Regenerate commands.def after READWRITE summary fix (#15595)"
+  },
+  {
+    "sha": "c4913c06b7c58fe42ed3b825cbf8475e14ec41ff",
+    "ct": 1785986592,
+    "author": "brycenichols <140551331+brycenichols@users.noreply.github.com>",
+    "subject": "Fix typo Reids -> Redis in readwrite subcommand summary (#14805)"
+  },
+  {
+    "sha": "c027c8effe13564bcbc903741305acd929cc23da",
+    "ct": 1785983148,
+    "author": "Martin Pluskal <martin@pluskal.org>",
+    "subject": "Fix flaky lazyfree stream test by using explicit stream IDs (#15585)"
+  },
+  {
+    "sha": "ca54198dd5f628e621156d0b245ec7919aca1ecf",
+    "ct": 1785932740,
+    "author": "Antonio Viggiano <agfviggiano@gmail.com>",
+    "subject": "Fix signed overflow in BITFIELD i64 checks (#15545)"
+  },
+  {
+    "sha": "0ef7e2b93c8b112c2d3ab80b0fce2de040e0d8fb",
+    "ct": 1785932382,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix x86-64 detection in CRC optimizations (#15532)"
+  },
+  {
+    "sha": "ddd3c97e62e3fb910597a54c486c4a7ed6685ff0",
+    "ct": 1785926072,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "Fix typos and replace 'codespell' with 'typos' (#15230)"
+  },
+  {
+    "sha": "43c88eb4519581c7e65d298222d7210c98779b96",
+    "ct": 1785923024,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Track Pub/Sub subscription provenance across AUTH changes (#15468)"
+  },
+  {
+    "sha": "bf49481ad7cf93d136e7520d321448d9ef65b03a",
+    "ct": 1785849334,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Fix timeout issue for replication-buffer test with TLS (#15531)"
+  },
+  {
+    "sha": "3659edefcf9fc49a472d428eb7f1867b8de47db2",
+    "ct": 1785836023,
+    "author": "sugarbliss <57820003+sugarbliss@users.noreply.github.com>",
+    "subject": "rax: fix random walk from inlined leaves (#15508)"
+  },
+  {
+    "sha": "4a7dd653794617c06f0f7eada7376e5cd5bc54cc",
+    "ct": 1785831678,
+    "author": "konoongg <120199924+konoongg@users.noreply.github.com>",
+    "subject": "Add graceful shutdown for TLS in redis-cli (#14721)"
+  },
+  {
+    "sha": "ade0601c22ae1ee949ac6065902532a7a2cd6ce7",
+    "ct": 1785829841,
+    "author": "charsyam <charsyam@gmail.com>",
+    "subject": "rax: use memchr() for child-edge lookup in non-compressed nodes (#15022)"
+  },
+  {
+    "sha": "6db484b48b8efbd783e6fd8c6ba9151455fc64b1",
+    "ct": 1785814512,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Fix meaningless assertions (#15510)"
+  },
+  {
+    "sha": "d886ae924f0669b9039efc506ac19613496121f2",
+    "ct": 1785811340,
+    "author": "Gimin Kim <138752849+Gimini-3@users.noreply.github.com>",
+    "subject": "Fix XDELEX DELREF propagation for deleted entries (#15569)"
+  },
+  {
+    "sha": "e60e6f0b3358181ff381276d8c9368f783dc93bd",
+    "ct": 1785751523,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Fix quadratic search of slot duplicates in hotkeys command (#15561)"
+  },
+  {
+    "sha": "de3ea25a9f486a44467cad0628bdb2d0a36aabf0",
+    "ct": 1785728250,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Skip the stale Unix socket test under Valgrind (#15571)"
+  },
+  {
+    "sha": "0708bdbc0086bea03c5a40d9b606b5fe73d7159d",
+    "ct": 1785723858,
+    "author": "Ronen Kalish <ronen.kalish@redis.com>",
+    "subject": "Disabling copy avoidance in 'client eviction due to output buffer' test (#15568)"
+  },
+  {
+    "sha": "3acc0c49cf5ad2af9425d333e62728342dd6159b",
+    "ct": 1785495614,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "update TLS.md to reflect current TLS support (#15497)"
+  },
+  {
+    "sha": "ebcea0c8173fe30117c55b631702a431e4f460dc",
+    "ct": 1785475046,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Prevent duplicate redis instances from replacing active Unix sockets (#15537)"
+  },
+  {
+    "sha": "58d0fb9c62e88df331c55dec378cd149909d406b",
+    "ct": 1785313418,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Add TLS peer certificate name (SAN) verification for server-to-server connections (#15492)"
+  },
+  {
+    "sha": "1532257df5e193a1b5c01651ec954d38513815b3",
+    "ct": 1785310952,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "Update RedisBloom to version 8.10.0- #15540 (#15554)"
+  },
+  {
+    "sha": "a860eeb13ab46da7f34191c9901f6d3887d41620",
+    "ct": 1785310474,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "Update RedisTimeSeries to version 8.10.0 (#15553)"
+  },
+  {
+    "sha": "23fcda0ad3615124ce8aacb8e766654816df9f84",
+    "ct": 1785310065,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Speed up XAUTOCLAIM by replacing per-entry lookups with a single forward scan (#15505)"
+  },
+  {
+    "sha": "fe86cf070cf8882f54ec1bb0568677ffa2868cf1",
+    "ct": 1785309643,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Disable defrag during AOF RDB preamble loading to fix template defrag (#15539)"
+  },
+  {
+    "sha": "69601e38b63453aea4e8a776ad9b68ef44e0c22a",
+    "ct": 1785308978,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "Update RedisJson to version 8.10.0 (#15541)"
+  },
+  {
+    "sha": "557a7f3bd837ccc8176434e31b1804a424e1dbbc",
+    "ct": 1785308796,
+    "author": "redis-release-automation-app[bot] <260643057+redis-release-automation-app[bot]@users.noreply.github.com>",
+    "subject": "Update RediSearch to version 8.10.0 (#15544)"
+  },
+  {
+    "sha": "b355887a4dbbd78062f5ad0716636d8b026cc95a",
+    "ct": 1785264371,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Cluster: notify modules when node's own ip/port changes (#15518)"
+  },
+  {
+    "sha": "3ec4b7726d6c229d8d9049f43cdf11bfadd45f8c",
+    "ct": 1785230193,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "MOD-16952 - enhance bootstrap (add list and dry-run arg) (#15516)"
+  },
+  {
+    "sha": "d6f09b8ee22c3433d4ba91e3163814baa4043c75",
+    "ct": 1785147580,
+    "author": "Shubham S Taple <subbutaple@gmail.com>",
+    "subject": "Improve time complexity of streamMoveIdmpKeys() in asmTriggerBackgroundTrim() (#15000)"
+  },
+  {
+    "sha": "7ddf71de0219b850d133dc1872e8c93114d2dec0",
+    "ct": 1785140570,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Improve hash template test coverage and refactor RDB save/load (#15519)"
+  },
+  {
+    "sha": "a8b19917f2ba7a520025401becac801f3b996763",
+    "ct": 1785124476,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Handle active-defrag thresholds where upper <= lower (#15513)"
+  },
+  {
+    "sha": "b53f65d9b471ee264293976805ad6c896171e3ed",
+    "ct": 1784880446,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Close socket when blocking connect wait fails (#15529)"
+  },
+  {
+    "sha": "e4324ae896869615ab22f2b1825d0b8408ab016b",
+    "ct": 1784877936,
+    "author": "Antonio Viggiano <agfviggiano@gmail.com>",
+    "subject": "Fix flaky XADD IDMP FLUSHALL test (#15507)"
+  },
+  {
+    "sha": "53f7e0a4146adff2dad377fa2c8156810320c233",
+    "ct": 1784862562,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Install preload-file data as the local AOF without a rewrite (#15509)"
+  },
+  {
+    "sha": "a62b264162bc224f75f121dd0075264d9b3b21ea",
+    "ct": 1784815763,
+    "author": "HwangRock <157935545+HwangRock@users.noreply.github.com>",
+    "subject": "Account replication compression state in client memory usage (#15499)"
+  },
+  {
+    "sha": "a4fa36ef95df0c7c19ddc76f82fbce93a771c55c",
+    "ct": 1784798527,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Fix client replication compression test (#15503)"
+  },
+  {
+    "sha": "255968553d39027e7f194e26b90f395ed0b9c28c",
+    "ct": 1784708969,
+    "author": "Dhruv Chauhan (chdh) <84621641+dhruv2x@users.noreply.github.com>",
+    "subject": "Wake blocked list clients when SORT STORE overwrites a key (#15453)"
+  },
+  {
+    "sha": "d72a7141534419792411d5a5475f969cb8dc574a",
+    "ct": 1784688220,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Add CI to build bundled modules on every supported OS when modules.yaml changes (#15442)"
+  },
+  {
+    "sha": "e1cc3dc268a5ff20eecbdb530483fd692c3dbc6e",
+    "ct": 1784570442,
+    "author": "YaacovHazan <31382944+YaacovHazan@users.noreply.github.com>",
+    "subject": "Strip CRLF from error and simple string replies (#15496)"
+  },
+  {
+    "sha": "0b380ccde6c1cc540d6ce79fe78ae911733eaecc",
+    "ct": 1784551524,
+    "author": "kush2439p <kushv619@gmail.com>",
+    "subject": "deps/xxhash: drop clean rules for non-vendored tests/ dir (#15491)"
+  },
+  {
+    "sha": "e4b41c32af755a20968e663cf74f2596b9a85f6d",
+    "ct": 1784550469,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "Fix flaky cluster-topology-change test by waiting for ASM to finish (#15493)"
+  },
+  {
+    "sha": "b8e84a8d39066f5c4bd907c81a17af20c0f3fa88",
+    "ct": 1784535907,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Fix redis.conf and README for repl compression (#15490)"
+  },
+  {
+    "sha": "82d0e3f85b373ce48845e893d161cc7a9d5a253c",
+    "ct": 1784530248,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Client compression for replication (#15366)"
+  },
+  {
+    "sha": "f5b2cba567c98d880d1f8a918de0b98e2b893e17",
+    "ct": 1784516742,
+    "author": "Aidan Nguyen <aidan.g124956@gmail.com>",
+    "subject": "Fix AOF rewrite crash on module types with a NULL aof_rewrite callback (#15436)"
+  },
+  {
+    "sha": "799e7c5c24ae5ff96e1550e93fa90f4cc5617730",
+    "ct": 1784486739,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Update RedisTimeSeries module to v8.9.91 (#15483)"
+  },
+  {
+    "sha": "30379f310190e63dfe860608c7a56e9f6732ed1e",
+    "ct": 1784366139,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Backup & Restore (#15441)"
+  },
+  {
+    "sha": "d3315247fa1cf9ce079eb7b6e77a7d06ac643b2a",
+    "ct": 1784359279,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Fix ACL key checks for SORT, GEORADIUS/GEORADIUSBYMEMBER, and XREAD/XREADGROUP (#15478)"
+  },
+  {
+    "sha": "ba99faa230643931f91d2d5d68a0393e25fa07f5",
+    "ct": 1784334619,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Introduce hinted hash templates (#15364)"
+  },
+  {
+    "sha": "af293cf75bf88773f9c04e20276cff57cffa730a",
+    "ct": 1784296543,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Fix write handler removal in iothread when sending client to main (#15467)"
+  },
+  {
+    "sha": "534377d66ef4fb03c317a5ec03ebff66ebb7b1c7",
+    "ct": 1784279113,
+    "author": "Antonio Viggiano <agfviggiano@gmail.com>",
+    "subject": "Avoid duplicate KeyMeta restoration in RESTORE-based AOF rewrites (#15466)"
+  },
+  {
+    "sha": "ad642d95a87ebcf5ba7aba78561bd960ad590396",
+    "ct": 1784253910,
+    "author": "Filipe Oliveira (Redis) <filipe@redis.com>",
+    "subject": "Fix dictMemUsage() over-counting no_value entries (#15462)"
+  },
+  {
+    "sha": "a4d0e84a47717e751cc218bababf02df0b0b5c17",
+    "ct": 1784232980,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Update RedisTimeSeries module to v8.9.90 (#15476)"
+  },
+  {
+    "sha": "ec6c204d4c960df76d403b9f1f1d6b154388a9f8",
+    "ct": 1784232815,
+    "author": "Aviv David <40210928+AvivDavid23@users.noreply.github.com>",
+    "subject": "Update Redis modules(json & bloom) to version v8.9.90 (#15463)"
+  },
+  {
+    "sha": "27a4968b5d208b88b5cd7dec98d8dde1792c8a02",
+    "ct": 1784232610,
+    "author": "Omer Shadmi <76992134+oshadmi@users.noreply.github.com>",
+    "subject": "MOD-16885: Update RediSearch module to v8.9.90 (#15475)"
+  },
+  {
+    "sha": "f76dff71ec60a203f55b00224bee2391f9445223",
+    "ct": 1784110002,
+    "author": "Moti Cohen <moticless@gmail.com>",
+    "subject": "Remove single-use dictForEach macro (#15437)"
+  },
+  {
+    "sha": "e5e1eaa97ad3020305b84442197011abc8ce40bc",
+    "ct": 1784054251,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "Update build-from-source docs for 8.10+ and fix build.sh flag handling (#15454)"
+  },
+  {
+    "sha": "1aa21f97d29230df6369fa99ba8c2c741a9d6da8",
+    "ct": 1784023328,
+    "author": "Slavomir Kaslev <slavomir.kaslev@gmail.com>",
+    "subject": "Fix parallel builds with `make -j` (#15459)"
+  },
+  {
+    "sha": "aa301bfd38f0be6f999319a942f79cb4384c7225",
+    "ct": 1784021014,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Fix IO thread busy looping for repl clients (#15329)"
+  },
+  {
+    "sha": "9e5614d837065f48a371e570aa4d3f179f41599f",
+    "ct": 1783957239,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Feed replicas mid command-stream under heavy write load (#15447)"
+  },
+  {
+    "sha": "8897348030c20bcd26841bc7d3ec7227f8187aeb",
+    "ct": 1783955180,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Add RedisModuleEvent_ClusterTopologyChange server event (#15350)"
+  },
+  {
+    "sha": "3071bf6d7db6507cc06737ec34195a521551209a",
+    "ct": 1783953518,
+    "author": "JongsuPark <pjs7678@gmail.com>",
+    "subject": "Fix unit mismatch that disabled the FAST expire cycle stale trigger (#15412)"
+  },
+  {
+    "sha": "117681f6a6509eae72c704df62fcfb81bde122ec",
+    "ct": 1783952708,
+    "author": "himanshu-2l <himanshurathore212.2l@gmail.com>",
+    "subject": "Add total command argument count to SLOWLOG GET reply (#15347)"
+  },
+  {
+    "sha": "7662d3ff5dd5cacb9197f48b0e2de5ceadfa7b3a",
+    "ct": 1783934562,
+    "author": "Vismay <89745751+vismaytiwari@users.noreply.github.com>",
+    "subject": "Fix server crash on VRANDMEMBER with LLONG_MIN count (#15392)"
+  },
+  {
+    "sha": "c5ac971438eeae2d14c11fbe856046adc967f3ed",
+    "ct": 1783691556,
+    "author": "sacad <93928822+SacadM@users.noreply.github.com>",
+    "subject": "Fix signed overflow in BITFIELD #offset parsing (#15433)"
+  },
+  {
+    "sha": "c0c886a8cff45d9c772e107a7be188539b86b3e0",
+    "ct": 1783673171,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Skip unready fds in select event backend (#15446)"
+  },
+  {
+    "sha": "81ac97cbed1c54f8a41ff2c5133a5341eaa16b7a",
+    "ct": 1783666798,
+    "author": "Filipe Oliveira (Redis) <filipe@redis.com>",
+    "subject": "redis-cli: add configurable latency percentiles to --latency modes (#15352)"
+  },
+  {
+    "sha": "b48e4abe408f8d2ed318b50fa57e76d305da3db4",
+    "ct": 1783572940,
+    "author": "Mincho Paskalev <minchopaskal@gmail.com>",
+    "subject": "Add LMOVEM/BLMOVEM commands (#15405)"
+  },
+  {
+    "sha": "42bd63b3c186c21aa3cbe47b36c1236d2a914616",
+    "ct": 1783569904,
+    "author": "Filipe Oliveira (Redis) <filipe@redis.com>",
+    "subject": "Optimize wide HSET/HMSET on a fresh hash with a single batched listpack append (#15345)"
+  },
+  {
+    "sha": "4dd58caa7cc23225b01f31e7bd9a1ed0af7e49ad",
+    "ct": 1783522545,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "RED-191626 , RED-191854 - modules modernization (#15253)"
+  },
+  {
+    "sha": "3869512c920d4e865b54384bce5fcb6a4e06ae0d",
+    "ct": 1783483822,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Fix ACL key-name leak in BCAST client-side caching invalidations (#15371)"
+  },
+  {
+    "sha": "6bf6224c3dad518329ddc893ef9c5d58dcbabdeb",
+    "ct": 1783417111,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Revert \"Add FORK_CHILD_PRE/CANCELLED subevents for pre-fork module coordination (#15327)\" (#15432)"
+  },
+  {
+    "sha": "57a00274b3ef67aa40857b80060cf931c1af3425",
+    "ct": 1783388928,
+    "author": "h.o.t. neglected <yangbo.long.mav@gmail.com>",
+    "subject": "Fix crash on CONFIG SET of TLS options in non-TLS builds (#15409)"
+  },
+  {
+    "sha": "8fa70c987718f7763e19300653f46bac59f777b2",
+    "ct": 1783346785,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Optimize lpSeek() by validating entries only when necessary (#15376)"
+  },
+  {
+    "sha": "5037e19c6110ec18ff0acd9950cce94be881ebb5",
+    "ct": 1783313864,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Improve RESTORE REPLACE performance for new keys (#15397)"
+  },
+  {
+    "sha": "aa5409f1c29385332b4605165569ac5b8fd93e59",
+    "ct": 1783247420,
+    "author": "Omer Shadmi <76992134+oshadmi@users.noreply.github.com>",
+    "subject": "MOD-16645: Update RediSearch module to v8.9.82 (#15425)"
+  },
+  {
+    "sha": "95f42acde01eaf635955a8a2e4596b094a2118fa",
+    "ct": 1783090123,
+    "author": "h.o.t. neglected <yangbo.long.mav@gmail.com>",
+    "subject": "Fix LSET out-of-range 64-bit index truncation (#15407)"
+  },
+  {
+    "sha": "5b22a09918743ba72952e35e431db23eb3d19605",
+    "ct": 1782957567,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Reject duplicate CONFIG SET aliases (#15322)"
+  },
+  {
+    "sha": "2c9c04c1f87254976cb573b70c74f6724fc098b2",
+    "ct": 1782955295,
+    "author": "Mehmet Tokg\u00f6z <56408993+mehmettokgoz@users.noreply.github.com>",
+    "subject": "Fix SET mutually exclusive NX/XX and IF* options (#15291)"
+  },
+  {
+    "sha": "ec26d01fbac74acd243083d95c1068023f0310ab",
+    "ct": 1782877986,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix overflowing memory unit conversions (#15390)"
+  },
+  {
+    "sha": "47b39347b5697de2bf5850923dde178935b61937",
+    "ct": 1782875577,
+    "author": "Yuan Wang <yuan.wang@redis.com>",
+    "subject": "Support atomic slot migration in redis-cli (#15338)"
+  },
+  {
+    "sha": "e5fb6863dbd536ff7f22fdf6742a5744b691efb8",
+    "ct": 1782816413,
+    "author": "Omer Shadmi <76992134+oshadmi@users.noreply.github.com>",
+    "subject": "MOD-16508: Update RediSearch module to v8.9.81 (#15370)"
+  },
+  {
+    "sha": "0e618fafdf8df621be80aebdc8213615f026e2ec",
+    "ct": 1782780104,
+    "author": "Vismay <89745751+vismaytiwari@users.noreply.github.com>",
+    "subject": "Fix NULL deref in usUntilEarliestTimer when all time events are deleted (#15391)"
+  },
+  {
+    "sha": "5b5c32663b09e5e5c6d8918207d35d82d79ab0a5",
+    "ct": 1782721661,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix XREAD MAXSIZE test under force-resp3 (#15378)"
+  },
+  {
+    "sha": "f5e8137e1e1465d38f24e0e6356328ec9d11fbd0",
+    "ct": 1782718159,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Cancel ASM tasks on RM_ResetDataset and RM_RdbLoad (#15377)"
+  },
+  {
+    "sha": "d28dd44c49a48f007b57dd4f1b79066cb58f7132",
+    "ct": 1782712868,
+    "author": "Christian Aistleitner <christian@quelltextlich.at>",
+    "subject": "Switch from the archived `redis-docs` to the new `doc` repo (#15383)"
+  },
+  {
+    "sha": "fe5d2186468217f682e61b0fd4b4198ff49f7a90",
+    "ct": 1782712574,
+    "author": "Ozan Tezcan <ozantezcan@gmail.com>",
+    "subject": "Fix TSAN warning in hashTypeLength (#15382)"
+  },
+  {
+    "sha": "477aaf79c5863f18a72fc90592d5796f8fe00134",
+    "ct": 1782705438,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "Add MIGRATE_MODULE_PROPAGATE_END event to propagate commands at the end of ASM (#15373)"
+  },
+  {
+    "sha": "08b465e4f4891bef9f08d7049dd670627b86f7a4",
+    "ct": 1782460807,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Add MAXCOUNT and MAXSIZE options to XREAD and XREADGROUP (#15282)"
+  },
+  {
+    "sha": "84318433162e6a3cd58d5461e8031eeedbe21a8e",
+    "ct": 1782412534,
+    "author": "Tal Bar Yakar <62205470+TalBarYakar@users.noreply.github.com>",
+    "subject": "Update RedisTimeSeries module to v8.9.81 (#15372)"
+  },
+  {
+    "sha": "188526958253769b88e22bd0f58581b6778bc9bb",
+    "ct": 1782409642,
+    "author": "redis-release-automation-app[bot] <260643057+redis-release-automation-app[bot]@users.noreply.github.com>",
+    "subject": "Update RedisBloom to version 8.9.80 (#15368)"
+  },
+  {
+    "sha": "604531d5f4a9ba9d03bd18e50ff5914b3723b4c3",
+    "ct": 1782302054,
+    "author": "redis-release-automation-app[bot] <260643057+redis-release-automation-app[bot]@users.noreply.github.com>",
+    "subject": "Update RedisJSON to version 8.9.80 (#15363)"
+  },
+  {
+    "sha": "e4b81f6df242b57f73d2f6c67fe513ec31ecb90e",
+    "ct": 1782296667,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Implement sdiffcard command (#15278)"
+  },
+  {
+    "sha": "62d787a033899a52e07bad631395c0037f0cd5f3",
+    "ct": 1782295244,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix module numeric config crash on missing config (#15357)"
+  },
+  {
+    "sha": "1d226e24e28fc7af82fd72585665d4fb8a8f4ed7",
+    "ct": 1782292674,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Fix NULL deref in ACL LOAD with internal (user-less) connections (#15356)"
+  },
+  {
+    "sha": "4e59b8c00ef7a2c3429c6f19bd64f898125cc343",
+    "ct": 1782224759,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Use the path argument instead of server.configfile in rewriteConfig() (#15362)"
+  },
+  {
+    "sha": "d397d25179d7e6448db0e38d2ff7987db0609463",
+    "ct": 1782205492,
+    "author": "Moti Cohen <moticless@gmail.com>",
+    "subject": "rax: leaf-inlining for fixed-length-key rax trees (#15256)"
+  },
+  {
+    "sha": "d2d3390d0c4d01ab7bfb46054ad0d5003d63c11b",
+    "ct": 1782094531,
+    "author": "h.o.t. neglected <yangbo.long.mav@gmail.com>",
+    "subject": "Trim excess SDS allocation in inline command parsing (#15259)"
+  },
+  {
+    "sha": "7fb02029f5f348370070f18c8753816270b9b96d",
+    "ct": 1782092997,
+    "author": "debing.sun <debing.sun@redis.com>",
+    "subject": "Fix mem_clients_normal accounting drift when discarding a cached master (#15309)"
+  },
+  {
+    "sha": "44a6a9f5ef9bcb8ccc34f8b5d9e859187b55c523",
+    "ct": 1781702518,
+    "author": "Joan Fontanals <jfontanalsmartinez@gmail.com>",
+    "subject": "[RED-197766] - allow modules to register PostNotificationJobsPerKey (#15242)"
+  },
+  {
+    "sha": "750f6e762c9d22ec61d0d18d253b3582c3e2cde3",
+    "ct": 1781692617,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Add FORK_CHILD_PRE/CANCELLED subevents for pre-fork module coordination (#15327)"
+  },
+  {
+    "sha": "4885bca456b5a75239cea72d719ea7df76ddd664",
+    "ct": 1781690729,
+    "author": "Guimu <30684111+daguimu@users.noreply.github.com>",
+    "subject": "Fix IFDEQ/IFDNE digest argument type in SET and DELEX command json file (#15305)"
+  },
+  {
+    "sha": "1f5c93ef369c2a0ca71054b5c29028e9515c98a6",
+    "ct": 1781607912,
+    "author": "Omer Shadmi <76992134+oshadmi@users.noreply.github.com>",
+    "subject": "MOD-16291: Update RediSearch module to v8.9.80 (#15343)"
+  },
+  {
+    "sha": "884d6c68953a7513c7cf2f36c74f50e2ca314332",
+    "ct": 1781607798,
+    "author": "YaacovHazan <31382944+YaacovHazan@users.noreply.github.com>",
+    "subject": "Add SCRIPT_RUNNER command flag (#15337)"
+  },
+  {
+    "sha": "dcc8b118a85bd993213a990f35735d1dc0e87119",
+    "ct": 1781569298,
+    "author": "rantidhar <ran.tidhar@redis.com>",
+    "subject": "RED-200844: avoid recomputing allocator fragmentation twice per cron tick (#15330)"
+  },
+  {
+    "sha": "a933493c29b040239a2341c82b50302740317e9a",
+    "ct": 1781459842,
+    "author": "Tom Gabsow <gabsow.tom@gmail.com>",
+    "subject": "Update RedisTimeSeries module to v8.9.80 (#15336)"
+  },
+  {
+    "sha": "f6ffa0003a257da819bc245e94b96e193d622c1d",
+    "ct": 1781250496,
+    "author": "hristostaykov-del <hristo.staykov@redis.com>",
+    "subject": "Implement sunioncard command (#14893)"
+  },
+  {
+    "sha": "df63a65d4d4ee33ae67e9f101885074febe0bccb",
+    "ct": 1781003637,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Validate stream entries_added/entries_read on RDB/RESTORE load (#15308)"
+  },
+  {
+    "sha": "e58041978da97fbe239bc63258e2622019e56e0c",
+    "ct": 1780981117,
+    "author": "Vitah Lin <vitahlin@gmail.com>",
+    "subject": "Fix Codecov action GPG verification failure (#15314)"
+  },
+  {
+    "sha": "23b90e906fbf4ee6207d94e97e224b8c31a90e03",
+    "ct": 1780902167,
+    "author": "Minh Vu <vuhoangminh97@gmail.com>",
+    "subject": "Fix VADD CAS SETATTR attribute accounting (#15270)"
+  },
+  {
+    "sha": "091ec01de346ffff9b1312dd3b1f4a78407020f2",
+    "ct": 1780897859,
+    "author": "2030XiaoGe <1172237608@qq.com>",
+    "subject": "Fix CROSSSLOT error in rebalance when --user is used without -a (#15262)"
+  },
+  {
+    "sha": "4625b8942a82c4737fc14cbf17c221ea1c3fcdb5",
+    "ct": 1780651298,
+    "author": "Slavomir Kaslev <slavomir.kaslev@gmail.com>",
+    "subject": "Avoid zmalloc_size() in kvobjAllocSize() and approximate instead (#14704)"
+  },
+  {
+    "sha": "37894faeea11e2db28b9fc2af378a762d2c36523",
+    "ct": 1780649765,
+    "author": "Sergei Georgiev <s_ggeorgiev@yahoo.com>",
+    "subject": "Reject cluster bus PING extensions with missing null terminator (#15263)"
+  },
+  {
+    "sha": "bff152c7ac57b896780bb70b8ed9d71770eb92a2",
+    "ct": 1780646391,
+    "author": "darkyzhou <me@zqy.io>",
+    "subject": "Add LoongArch64 backtrace support (#15247)"
+  }
+]

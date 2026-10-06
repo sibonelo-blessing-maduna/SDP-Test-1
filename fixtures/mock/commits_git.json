@@ -1,0 +1,1202 @@
+[
+  {
+    "sha": "5a7d1e8045ce66c908f62598e26cbb8df7b39a90",
+    "ct": 1791233550,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "The 3rd batch"
+  },
+  {
+    "sha": "8103b446517e0c44e67561b9d0ccce56efa60a71",
+    "ct": 1791089155,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "The 2nd batch"
+  },
+  {
+    "sha": "c46c1e37724f0478939de636ab8ea5a89086d532",
+    "ct": 1790879296,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "Start Git 2.98 cycle"
+  },
+  {
+    "sha": "b2ab8fccc35471c6917e69433613b84135c94397",
+    "ct": 1790618302,
+    "author": "jyotish kumar <jyotishkumar725015@gmail.com>",
+    "subject": "name-rev: update hash descriptions"
+  },
+  {
+    "sha": "a018953688f1b10bddf91bff8747068f5f4746a4",
+    "ct": 1790569204,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "Git 2.56"
+  },
+  {
+    "sha": "14a748f8522dd86bb0d42f435bab8fd665bb864b",
+    "ct": 1790512910,
+    "author": "St\u00e9fan Driaan Turvey <stefanturvey1912@gmail.com>",
+    "subject": "l10n: af: fix review comments"
+  },
+  {
+    "sha": "0ce24c2cb223528ad84dc518f0069ba8dc17b282",
+    "ct": 1790512908,
+    "author": "St\u00e9fan Driaan Turvey <stefanturvey1912@gmail.com>",
+    "subject": "l10n: af: add Afrikaans translation"
+  },
+  {
+    "sha": "bc312c315c1a142ac4513aea3e1f00f7ea9419aa",
+    "ct": 1790511533,
+    "author": "Daniel Pereira <danielmaraboo@gmail.com>",
+    "subject": "l10n: pt_BR: add Brazilian Portuguese translation"
+  },
+  {
+    "sha": "0a961ebf01737f50c491ce12f7be3998a7f73fd1",
+    "ct": 1790500332,
+    "author": "Jiang Xin <worldhello.net@gmail.com>",
+    "subject": "l10n: restore translations after upstream revert"
+  },
+  {
+    "sha": "a2a8f6ba37019e7c48699bb471312c442c126574",
+    "ct": 1790500177,
+    "author": "Arkadii Yakovets <2201626+arkid15r@users.noreply.github.com>",
+    "subject": "l10n: uk: add 2.56 translation"
+  },
+  {
+    "sha": "f7dcca73f3bc394203d6f3fd731897c4053463cc",
+    "ct": 1790500177,
+    "author": "Mikel Forcada <mikel.forcada@gmail.com>",
+    "subject": "l10n: Update Catalan Translation"
+  },
+  {
+    "sha": "baa20f2c7c01a083d87f3ae714de223e1dbfcc61",
+    "ct": 1790500177,
+    "author": "lilydjwg <lilydjwg@gmail.com>",
+    "subject": "l10n: zh_CN: adopt review suggestions"
+  },
+  {
+    "sha": "2e3e58a51d9e5b8356f9eede3e8b5f2b962a97bf",
+    "ct": 1790500177,
+    "author": "lilydjwg <lilydjwg@gmail.com>",
+    "subject": "l10n: zh_CN: updated translation for 2.56"
+  },
+  {
+    "sha": "e051aa97dc742812d654d5effcf44735e91121ea",
+    "ct": 1790500177,
+    "author": "Aindri\u00fa Mac Giolla Eoin <aindriu80@gmail.com>",
+    "subject": "l10n: ga.po: update for Git 2.56"
+  },
+  {
+    "sha": "d4586f38f77fab3956f5fdb2521b7a2f92372f66",
+    "ct": 1790500177,
+    "author": "Emir SARI <emir_sari@icloud.com>",
+    "subject": "l10n: tr: Update Turkish translations"
+  },
+  {
+    "sha": "334a9a3867784dd0f916a887419ce1dec44f9063",
+    "ct": 1790500177,
+    "author": "Jean-No\u00ebl Avila <jn.avila@free.fr>",
+    "subject": "l10n: fr: update translation for git 2.56.0"
+  },
+  {
+    "sha": "4805c1ff999c2f7283c87c7a29635dba8a08855e",
+    "ct": 1790500177,
+    "author": "Peter Krefting <peter@softwolves.pp.se>",
+    "subject": "l10n: sv.po: Update Swedish translation"
+  },
+  {
+    "sha": "8f3ec9333f9acacd51f91617c8ae13487512bd72",
+    "ct": 1790500177,
+    "author": "Bagas Sanjaya <bagasdotme@gmail.com>",
+    "subject": "l10n: po-id for 2.56"
+  },
+  {
+    "sha": "54c2884e8bbeadad99fad1631bdd8787f5c4ed51",
+    "ct": 1790495872,
+    "author": "Jiang Xin <worldhello.net@gmail.com>",
+    "subject": "l10n: AGENTS.md: zsh-safe review result cleanup"
+  },
+  {
+    "sha": "ab902cf3aa76c3e654cb8b6bb7194e6e32197375",
+    "ct": 1790495872,
+    "author": "Jiang Xin <worldhello.net@gmail.com>",
+    "subject": "l10n: AGENTS.md: use JSON intermediates in workflow"
+  },
+  {
+    "sha": "312e271fcb8c109d74d1efe627655995b33ca46c",
+    "ct": 1790495872,
+    "author": "Jiang Xin <worldhello.net@gmail.com>",
+    "subject": "l10n: AGENTS.md: count PO entries with git-po-helper stat -c"
+  },
+  {
+    "sha": "b2bc011edd388c3e2f4d7e2b22d3463315faf6d5",
+    "ct": 1790495871,
+    "author": "Jiang Xin <worldhello.net@gmail.com>",
+    "subject": "l10n: AGENTS.md: require git-po-helper >= 0.9.1"
+  },
+  {
+    "sha": "b758bc5bc4b35db0bc807d3ab33cd492e86d6b4d",
+    "ct": 1790495871,
+    "author": "Jiang Xin <worldhello.net@gmail.com>",
+    "subject": "l10n: AGENTS.md: fix counter fallbacks"
+  },
+  {
+    "sha": "ebc067f3cc71fc21adb77c5a91ca46f2fc569217",
+    "ct": 1790484311,
+    "author": "Ren\u00e9 Scharfe <l.s.r@web.de>",
+    "subject": "dir: skip excluded directory with nested repo on prefix match"
+  },
+  {
+    "sha": "da2926c8f5fa806540979c28e2564ac55533fce2",
+    "ct": 1790374538,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "revision: handle argv movement in parse_revision_opt()"
+  },
+  {
+    "sha": "253118d1d99b28b1c809e3607c0a182e141f3e45",
+    "ct": 1790374538,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "revision: avoid reporting known options as unknown on error"
+  },
+  {
+    "sha": "f6f2cf39ea21d116302e076a4dab9250553736b2",
+    "ct": 1790361332,
+    "author": "Yoichi NAKAYAMA <yoichi.nakayama@gmail.com>",
+    "subject": "completion: complete 'git worktree repair'"
+  },
+  {
+    "sha": "2fc11e33820f1032ad6f253f386717746a8dce97",
+    "ct": 1790352678,
+    "author": "Julia Evans <julia@jvns.ca>",
+    "subject": "doc: add more AsciiDoc cross-references"
+  },
+  {
+    "sha": "64172cf117bd00f0caee5e6e0ab7de30aab587f4",
+    "ct": 1790287537,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "ci: work around Debian 12's HTTP/2 authentication failures"
+  },
+  {
+    "sha": "933247f61c536b0c5e87d45d2a45f3c56e4752c0",
+    "ct": 1790278140,
+    "author": "Karthik Nayak <karthik.188@gmail.com>",
+    "subject": "ci: fix unit tests not running on windows"
+  },
+  {
+    "sha": "60cf5005515d6df30bfc3c1dd13475e13b12f445",
+    "ct": 1790274133,
+    "author": "Pushkar Singh <pushkarkumarsingh1970@gmail.com>",
+    "subject": "reflog: fix default expiry periods"
+  },
+  {
+    "sha": "ef7faa6350fc2ee4151584bd912dfd61606be98c",
+    "ct": 1790218963,
+    "author": "Justin Tobler <jltobler@gmail.com>",
+    "subject": "object-file: flush transaction packfile before migrating objects"
+  },
+  {
+    "sha": "7d4fbc64ce234d2def89cca8f6ed65f684cddb24",
+    "ct": 1790218963,
+    "author": "Justin Tobler <jltobler@gmail.com>",
+    "subject": "object-file: lift ODB reprepare out of packfile flush"
+  },
+  {
+    "sha": "0f8e75abebff0877cae681a3d5ff31ac47f54220",
+    "ct": 1790187531,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "Revert \"Merge branch 'en/no-amend-during-conflicts'\""
+  },
+  {
+    "sha": "3bc0341126508f78f5869cbfc0005e987efdf0c7",
+    "ct": 1790080593,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "Git 2.56-rc2"
+  },
+  {
+    "sha": "38bdda17dd33e42193f1b3b7e91797d5c03145d4",
+    "ct": 1790036337,
+    "author": "Jiri Kuncar <jiri.kuncar@gmail.com>",
+    "subject": "pull: avoid segfault when commit lookup fails"
+  },
+  {
+    "sha": "79ac6eff39af19b8a1f63a5ff9320dc9d7579fcf",
+    "ct": 1790036104,
+    "author": "Yongqiang Tian <yqtian668@gmail.com>",
+    "subject": "compat/winansi: fix die_lasterr() argument formatting"
+  },
+  {
+    "sha": "9a13b3742b935aca4c686bfdf2f4e76dbab77e13",
+    "ct": 1790013576,
+    "author": "Haokai Ding <hk_ding@outlook.com>",
+    "subject": "diff --no-index: fix -R with file/directory conflicts"
+  },
+  {
+    "sha": "c88341b7e1a5ca3c384c2a3aeb62b72fffbd8c00",
+    "ct": 1789674227,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "test-read-midx: check midx_fill_entry() result"
+  },
+  {
+    "sha": "237edbc58d77729588ed657ffe5d0f6908268e59",
+    "ct": 1789674227,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "oss-fuzz: handle reftable iterator initialization failures"
+  },
+  {
+    "sha": "11ab0ca4e3dae17c124b93ef08277b9a89cb5b38",
+    "ct": 1789674227,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "t/unit-tests: check reftable iterator initialization"
+  },
+  {
+    "sha": "742d8eb897b0521bb42cb7ebfff6cdacd5a9f6dc",
+    "ct": 1789674226,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "rerere: do not record failed conflict resolution data"
+  },
+  {
+    "sha": "c3a6be23337192248d7bd694992030433fd17441",
+    "ct": 1789674226,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "midx: validate incremental MIDX pack IDs"
+  },
+  {
+    "sha": "723dd6ca3e38509c62e396f43b9303de100c49e0",
+    "ct": 1789674226,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "gpg-interface: make signature-prefix matching length-aware"
+  },
+  {
+    "sha": "506a21b3123cfd7d78ec520e431c68393e254812",
+    "ct": 1789674226,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "wrapper: guard writev_in_full() against signed overflow"
+  },
+  {
+    "sha": "eba1a1c5dd79cf798e9b891d508276d4283ceaa1",
+    "ct": 1789673820,
+    "author": "Thomas Bachem <mail@thomasbachem.com>",
+    "subject": "sequencer: disable auto maintenance in spawned commands"
+  },
+  {
+    "sha": "2d1fa0323f434c1211cefbb98615ff57650bf0e2",
+    "ct": 1789673820,
+    "author": "Thomas Bachem <mail@thomasbachem.com>",
+    "subject": "rebase, cherry-pick, revert: run auto maintenance when done"
+  },
+  {
+    "sha": "528bb4f0195ded898a648cad8f6d9fd7595105f4",
+    "ct": 1789673820,
+    "author": "Thomas Bachem <mail@thomasbachem.com>",
+    "subject": "config: add git_config_append_parameter()"
+  },
+  {
+    "sha": "d38352cd43ab9745686d697872408bc3249a153f",
+    "ct": 1789663697,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "A few more fixes before -rc2"
+  },
+  {
+    "sha": "7b58375ab3b5865cdc44f11e72a6bcee779b63f0",
+    "ct": 1789663393,
+    "author": "Yoichi NAKAYAMA <yoichi.nakayama@gmail.com>",
+    "subject": "mailmap: normalize name for Yoichi NAKAYAMA"
+  },
+  {
+    "sha": "191740edaa4a17813b8e1595e3ef15068f88c8ba",
+    "ct": 1789596063,
+    "author": "Royce Remer <royceremer@gmail.com>",
+    "subject": "upload-pack: swap wanted-ref/shallow-info responses"
+  },
+  {
+    "sha": "700f7b74de75ba9bc6c463e2ded8c0144390f9b8",
+    "ct": 1789580759,
+    "author": "Orestis Floros <orestisflo@gmail.com>",
+    "subject": "commit-reach: parse commits in the given repository"
+  },
+  {
+    "sha": "12cb6293d6288865c1a133cf22accbaf99d13eb6",
+    "ct": 1789574876,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "Git 2.56-rc1"
+  },
+  {
+    "sha": "f0ef1b96a076d08dc972a8d2cb0d1cfd60931eb6",
+    "ct": 1789495657,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "4th batch for -rc1"
+  },
+  {
+    "sha": "995251109fa3e631e6fc7204e8cad128e8da2217",
+    "ct": 1789489336,
+    "author": "Todd Zullinger <tmz@pobox.com>",
+    "subject": "doc/refs: backtick-quote commands and options consistently"
+  },
+  {
+    "sha": "db06ca011e12b8156f327c59f6d643ca7799d453",
+    "ct": 1789489335,
+    "author": "Todd Zullinger <tmz@pobox.com>",
+    "subject": "doc/pack-refs: convert synopsis and options to new style"
+  },
+  {
+    "sha": "0e75d17ff78498645bf5d71df3a14a40d2fe1298",
+    "ct": 1789489260,
+    "author": "Kaartic Sivaraam <kaartic.sivaraam@gmail.com>",
+    "subject": "builtin/history: unuse the commit buffer after use"
+  },
+  {
+    "sha": "8d3a6731471521eb1ee7e3dd73d15b123f7ba0b2",
+    "ct": 1789489086,
+    "author": "SZEDER G\u00e1bor <szeder.dev@gmail.com>",
+    "subject": "Makefile: precompile \"git-compat-util.h\""
+  },
+  {
+    "sha": "af36bb91f925a545c5ee157a912b63140316d08b",
+    "ct": 1789489085,
+    "author": "SZEDER G\u00e1bor <szeder.dev@gmail.com>",
+    "subject": "Makefile: reintroduce REFTABLE_OBJS"
+  },
+  {
+    "sha": "986cd1cd9e2c10bbcccd510be699a68fdf2ceaa0",
+    "ct": 1789489085,
+    "author": "SZEDER G\u00e1bor <szeder.dev@gmail.com>",
+    "subject": "cmake: remove any \"$(*_OBJS)\" variables when parsing Makefile for sources"
+  },
+  {
+    "sha": "8f2f2656222298285cbc1439d500642a060824fc",
+    "ct": 1789489085,
+    "author": "SZEDER G\u00e1bor <szeder.dev@gmail.com>",
+    "subject": "Makefile: remove XDIFF_OBJS initialization"
+  },
+  {
+    "sha": "c090a2363c8209998fcd0f72e85dab5c289f2382",
+    "ct": 1789425408,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "receive-pack: coccinelle fix"
+  },
+  {
+    "sha": "339ab2a8f14c0c304ae2f28df1a859f3d2cf610c",
+    "ct": 1789419773,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "3rd batch for -rc1"
+  },
+  {
+    "sha": "b6f17686b20647fc904e6201fa6d168731e588eb",
+    "ct": 1789397867,
+    "author": "Yannik Tausch <dev@ytausch.de>",
+    "subject": "dir: preserve pathspec prefix optimization with leading excludes"
+  },
+  {
+    "sha": "16abad336073665c13c09b1026dd1227688b9c10",
+    "ct": 1789397867,
+    "author": "Yannik Tausch <dev@ytausch.de>",
+    "subject": "dir: do not apply prefix to negative pathspecs"
+  },
+  {
+    "sha": "d8e458582219ef786545ce7c083595c5ec91d5d3",
+    "ct": 1789396620,
+    "author": "Ariel Keselman <skariel@gmail.com>",
+    "subject": "refs/files: avoid packed-refs lock for root ref deletion"
+  },
+  {
+    "sha": "3699d22b59a6ea467ce13edb81b6bdea0398c803",
+    "ct": 1789361611,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "2nd batch for -rc1"
+  },
+  {
+    "sha": "1cd6b7de52f9f28c769749a1c4d4daac6a7d89b9",
+    "ct": 1789340478,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "cmake(windows): accommodate for Git for Windows' migration to UCRT64"
+  },
+  {
+    "sha": "aa40ca02170b805a55c8c2460f4bde6d86490306",
+    "ct": 1789340348,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "t9129: skip UTF-8 tests on Windows"
+  },
+  {
+    "sha": "8fff84c417c59ce94a7d4cb230fdc17a9cf6100f",
+    "ct": 1789340348,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "t9700: accommodate for MSYS2 Perl reporting as `cygwin`"
+  },
+  {
+    "sha": "86909a94db5d29b2277bfc54331801199cf3ccaf",
+    "ct": 1789339689,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "ci(windows): build with Rust"
+  },
+  {
+    "sha": "ce6f9ffaa7e2882d0ebda143f8ac2c307782af8a",
+    "ct": 1789339688,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "rust: pick a GCC-compatible Cargo target under MSYS2/MinGW"
+  },
+  {
+    "sha": "32814b69d05714c42def93b44a6ff8f1a242e8fe",
+    "ct": 1789165528,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "cocci: FREE_AND_NULL(E) is safe to call on NULL"
+  },
+  {
+    "sha": "d870565117a948be0b8a6ac48b7a862628ed18f1",
+    "ct": 1789165528,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "cocci: remove risky \"if (!E) free(E)\" conversion"
+  },
+  {
+    "sha": "7792e407939f0a27850a60a5b438916564b1a5d2",
+    "ct": 1789164270,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "ci: use system asciidoctor"
+  },
+  {
+    "sha": "3bbb0864a27bcbc0d31539431ac65916ba197d1d",
+    "ct": 1789162120,
+    "author": "Karthik Nayak <karthik.188@gmail.com>",
+    "subject": "hook: introduce the receive-report hook"
+  },
+  {
+    "sha": "f81e34b3f7de23f1250b11e38a6f84decf8abb13",
+    "ct": 1789162120,
+    "author": "Karthik Nayak <karthik.188@gmail.com>",
+    "subject": "receive-pack: move message generation to separate function"
+  },
+  {
+    "sha": "57c09985947224ffdee464111d0a3d0750207341",
+    "ct": 1789162120,
+    "author": "Karthik Nayak <karthik.188@gmail.com>",
+    "subject": "receive-pack: drop static variables to track report status version"
+  },
+  {
+    "sha": "87fcb886b4711e1c41ce444423af82d7b69adb4b",
+    "ct": 1789162119,
+    "author": "Karthik Nayak <karthik.188@gmail.com>",
+    "subject": "doc: add proc-receive hook info in 'git-receive-pack.adoc'"
+  },
+  {
+    "sha": "3a21fe8cf9cbc3a2ffb019d33d46626a3b9d4bf0",
+    "ct": 1789150201,
+    "author": "D. Ben Knoble <ben.knoble@gmail.com>",
+    "subject": "core: convert build-time USE_NSEC into runtime core.useNanosec"
+  },
+  {
+    "sha": "d08b8448f381d8238e2cbb22c404c5765f5131c6",
+    "ct": 1789150201,
+    "author": "D. Ben Knoble <ben.knoble@gmail.com>",
+    "subject": "environment: align repo_config_values_init with struct declaration"
+  },
+  {
+    "sha": "bc53d6c795e8e763a07baadcafdf7723f93dbe29",
+    "ct": 1789150200,
+    "author": "D. Ben Knoble <ben.knoble@gmail.com>",
+    "subject": "meson: expose knob for xmlto relative links in manuals"
+  },
+  {
+    "sha": "47ce80527c56f462cb97db4ca8125342204d3783",
+    "ct": 1789145110,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "A bit more for -rc1"
+  },
+  {
+    "sha": "0d5ebb323b19c92ea6d5e31f932c040267760466",
+    "ct": 1789143284,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: move loose object verification into the loose source"
+  },
+  {
+    "sha": "ae7a0ffc25df0103fe28c8504f8120e85edb9181",
+    "ct": 1789143284,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: move multi-pack index verification into the packed source"
+  },
+  {
+    "sha": "1bbb92d54019be5317e39182c6b2696f4abd0755",
+    "ct": 1789143284,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: move bitmap verification into the packed source"
+  },
+  {
+    "sha": "426d291b6095a51ee249b70a088f99cd67d4bb27",
+    "ct": 1789143284,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: move reverse index verification into the packed source"
+  },
+  {
+    "sha": "6bc77804047f3aba512b9f559b6c713fc7775954",
+    "ct": 1789143284,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: move packfile verification into the packed source"
+  },
+  {
+    "sha": "a51b77aa1d8ed033a018849465a65fd4e1dde02b",
+    "ct": 1789143284,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "odb: provide infrastructure for pluggable fsck checks"
+  },
+  {
+    "sha": "485f5aeb94caa2f33a465f5460d2e18594080d8e",
+    "ct": 1789143284,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: don't check alternates with \"--no-full\""
+  },
+  {
+    "sha": "e25440bad1c9158703daeb22de07d4663872b71d",
+    "ct": 1789143283,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: de-globalize option handling"
+  },
+  {
+    "sha": "dbdea7a91889cf4bfc2e64f59e9889f71f3a258e",
+    "ct": 1789143283,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: merge `fsck_obj_buffer()` and `fsck_obj()`"
+  },
+  {
+    "sha": "301a1ce92adc3128a3705a210c104c21bf862d41",
+    "ct": 1789143283,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/fsck: use `fsck_obj_buffer()` when checking loose objects"
+  },
+  {
+    "sha": "1c1eed13bdeba8c97c121e250e37995506344e68",
+    "ct": 1789142330,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "ci: drop ALREADY_HAVE_ASCIIDOCTOR variable"
+  },
+  {
+    "sha": "4340a709bf5ba4b2919a9993722ba5703b0999b4",
+    "ct": 1789142323,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "ci: fix missing Ruby dependency in \"documentation\" job"
+  },
+  {
+    "sha": "f0eb23a8f57d06cd461e72b35caf500145980ce8",
+    "ct": 1789141571,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "odb: remove the ability to link sources ad-hoc"
+  },
+  {
+    "sha": "46bbc8651579a572040c41bf7ff5d698e62758f7",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "t/helper: stop registering alternates in \"ref-store\" command"
+  },
+  {
+    "sha": "f1d88b9698c4d9965fa72f1ce5739836ab97940f",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "t/helper: adapt read-midx to not link ad-hoc source anymore"
+  },
+  {
+    "sha": "314b468c68de5a61f5d3b35ada15ee9cd6ba875d",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/multi-pack-index: refuse unknown sources with \"--object-dir=\""
+  },
+  {
+    "sha": "a5a7e86df19a720a611d4a149fd77435414ac62f",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "odb/packed: fix memory leaks when freeing source"
+  },
+  {
+    "sha": "60942e28b3c49f462c820ec95f30624464a11764",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "tmp-objdir: drop unused function to register alternate"
+  },
+  {
+    "sha": "5c5dfbeef6ab58debad8daaa43dfdd0370c48301",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "odb: remove infrastructure to register submodule sources"
+  },
+  {
+    "sha": "93cd344e34f6f0baab4525fbd5074d53fee4d3b9",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/grep: stop registering submodule ODB as source"
+  },
+  {
+    "sha": "a532feba892a3034d04b379e61c3cb18756007d1",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "submodule-config: stop registering submodule sources"
+  },
+  {
+    "sha": "e4ad79fd9d8984827b2dc304f1ed99fa69e1ad11",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "submodule-config: stop using `the_hash_algo`"
+  },
+  {
+    "sha": "8751a0ffc30dc91233f968d064fe913b3eeba885",
+    "ct": 1789141570,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "submodule-config: remove uses of `the_repository`"
+  },
+  {
+    "sha": "f9de4b7ff70a70d8e5c4abca418756e959aaea85",
+    "ct": 1789141569,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "cache-tree: remove dependency on `the_repository`"
+  },
+  {
+    "sha": "b4dedbc0615bddbad6a5bd18345d9da766d95dfa",
+    "ct": 1789141569,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "cache-tree: drop `the_repository` in `cache_tree_fully_valid()`"
+  },
+  {
+    "sha": "d1019ac8941cd0d50e71c6b03e171faf80843c8d",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "odb/source: remove the ability to write alternates"
+  },
+  {
+    "sha": "a9c1a15debaf5dfc6e84bf86d24cc18a1333dfb1",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/clone: write alternates via `odb_create_on_disk()`"
+  },
+  {
+    "sha": "d13e56771dd8ff8002c9ec31f17789df00d9199b",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "odb/source: support writing alternates when creating the database"
+  },
+  {
+    "sha": "002a7cfc731b9a4b77b580e82cba9aeea5b692cf",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/clone: move setup of alternates for non-shared local clones"
+  },
+  {
+    "sha": "87e10a91e2396507451387d3cf9f351d2cf7d7e5",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/clone: move setup of alternates for shared local clones"
+  },
+  {
+    "sha": "501548160c6bd13a622e78ad393baf49f9a6eed8",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/clone: refactor handling of \"--reference{,-if-able}\""
+  },
+  {
+    "sha": "f7aeeae6682881263adabc3d176ef1ce83205e79",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/clone: move around `setup_reference()`"
+  },
+  {
+    "sha": "dc33728d9d6249892c68060e2c21a211560e960c",
+    "ct": 1789070823,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/clone: defer setup of the object database"
+  },
+  {
+    "sha": "20e38cba3926a5b42ae1a83c7d4776285bc5c841",
+    "ct": 1789070822,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "setup: split up concerns of `init_db()`"
+  },
+  {
+    "sha": "415958b7928d915edbf8041661e86f040b61f566",
+    "ct": 1789047429,
+    "author": "James Le Cuirot <chewi@gentoo.org>",
+    "subject": "rust: respect CARGO_BUILD_TARGET when locating build output"
+  },
+  {
+    "sha": "609ea2363a9a65aa1bf775de40de29329abd85fc",
+    "ct": 1789044872,
+    "author": "Brigham Campbell <me@brighamcampbell.com>",
+    "subject": "doc: fix conjoined maintenance strategies in git-config(1)"
+  },
+  {
+    "sha": "fa7f9290efe2bd22dd736689597b474b93798e11",
+    "ct": 1789043777,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "Git 2.56-rc0"
+  },
+  {
+    "sha": "f4742f3165d096130c39a71feb26374da37620f2",
+    "ct": 1789042784,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "t0060: adjust the code style"
+  },
+  {
+    "sha": "caa5d9eab2b7bf62bfe6196c4c0354f82ab808d7",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: allow `git.exe` to be used instead of the \"Git wrapper\""
+  },
+  {
+    "sha": "7904764e294334fdac0bfd2f797b0dac0423da93",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: ensure valid CTYPE"
+  },
+  {
+    "sha": "653884e688b52f5f800dc3b06ae39fac5cbb8604",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: always define `ETC_*` for MSYS2 environments"
+  },
+  {
+    "sha": "0d5ce137ec59e124540fbae4d2c7488d73c5c1a0",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "windows: skip linking `git-<command>` for built-ins"
+  },
+  {
+    "sha": "d69ec483e4363819d8ce56d3e5387e8bec079a09",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: rely on MSYS2's metadata instead of hard-coding it"
+  },
+  {
+    "sha": "843047f8613da2f38f024c5b69e7e89a4ff175fb",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: only enable the MSYS2-specific stuff when compiling in MSYS2"
+  },
+  {
+    "sha": "59ab0a53f610e4179f38ef45d3a8fb8ef2ae1906",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: set the prefix and HOST_CPU as per MSYS2's settings"
+  },
+  {
+    "sha": "f243cc38dfebd4f3aee2e82136d56e22552fd523",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: avoid over-specifying `--pic-executable`"
+  },
+  {
+    "sha": "59d45146c6191c05cbfa05c6cb039acc4d08d71f",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: only use -Wl,--large-address-aware for 32-bit builds"
+  },
+  {
+    "sha": "2de7b82e0df99c96a85eab73577ed15aaeb12c71",
+    "ct": 1789042783,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: drop the -D_USE_32BIT_TIME_T option"
+  },
+  {
+    "sha": "e0e94ccedd7bfcc64d0d91008d85b88074e70a89",
+    "ct": 1789042782,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: stop hard-coding `CC = gcc`"
+  },
+  {
+    "sha": "b721adeb10fd377009d6e8efe1df932dba05bee1",
+    "ct": 1789042782,
+    "author": "Johannes Schindelin <Johannes.Schindelin@gmx.de>",
+    "subject": "mingw: include the Python parts in the build"
+  },
+  {
+    "sha": "dd907a4172749499de863faf97e47eadf7d7e1de",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "setup: allow \"--ref-storage-format=\" to specify a payload"
+  },
+  {
+    "sha": "53d995c53fb100920464c0709389f4fa55c6f215",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "setup: rename \"init.defaultRefFormat\" to \"init.defaultRefStorageFormat\""
+  },
+  {
+    "sha": "3a58de10ad2c43b6c60e35c0d8601fdf807ee235",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "t: rename GIT_TEST_DEFAULT_REF_FORMAT"
+  },
+  {
+    "sha": "768ec528646c79d98a511b6f55909405441b70d0",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "setup: rename ref storage format environment variables"
+  },
+  {
+    "sha": "78c0b3565059e6e235bb70f3bd225a8056a600ea",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "setup: refactor how we configure the ref storage format"
+  },
+  {
+    "sha": "0af0e959c819e195ffdeef7c7c76c28c23e46576",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "refs: expose function to parse reference URIs"
+  },
+  {
+    "sha": "022e59bc6b2d0db08529bfed10dce58b107d5a53",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "help: rename \"default-ref-format\" to \"default-ref-storage-format\""
+  },
+  {
+    "sha": "4ebec1971154a6b7abf9b20952e18e85542e20d2",
+    "ct": 1788977071,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/rev-parse: rename \"--show-ref-format\" to \"--show-ref-storage-format\""
+  },
+  {
+    "sha": "da01f4939f2f90fb27d7f47c2e32ffed59cc931f",
+    "ct": 1788977070,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/submodule: rename \"--ref-format=\" to \"--ref-storage-format=\""
+  },
+  {
+    "sha": "82fbd1c537d32b7aa0b4f24205d7404e80e20737",
+    "ct": 1788977070,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/refs: rename \"--ref-format=\" to \"--ref-storage-format=\""
+  },
+  {
+    "sha": "9bba3ad909375ff200eba25ac89429b83df1fc5f",
+    "ct": 1788977070,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/clone: rename \"--ref-format=\" to \"--ref-storage-format=\""
+  },
+  {
+    "sha": "9e7865bd142528df950acb687b86695e9968ddb6",
+    "ct": 1788977070,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/init: rename \"--ref-format=\" to \"--ref-storage-format=\""
+  },
+  {
+    "sha": "59b551cba76ed49d297541059a08697db734a07c",
+    "ct": 1788977070,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "parse-options: allow for hidden aliases"
+  },
+  {
+    "sha": "8a631963a95b0357fdb2a4c61e5df898028c4641",
+    "ct": 1788905221,
+    "author": "Tuomas Ahola <taahol@utu.fi>",
+    "subject": "lint-gitlink: don't use empty lower bound in .{0,8}"
+  },
+  {
+    "sha": "991dbca43e3c6110ac5e37b53efc972ef2429e4e",
+    "ct": 1788900670,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "history: support editing squashed commit messages"
+  },
+  {
+    "sha": "8c80498582bffc7b755406dbe3660e8b6098affe",
+    "ct": 1788900670,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "history: create squashed commits without editing"
+  },
+  {
+    "sha": "25cfa7c69aef48203f91751f4a83ed0324bea3e3",
+    "ct": 1788900670,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "history: protect branches when squashing a range"
+  },
+  {
+    "sha": "fb70711b903352c2ec300a6f9ec825b0e2cdf198",
+    "ct": 1788900670,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "history: validate squash revision ranges"
+  },
+  {
+    "sha": "6fd039c98475a4b7c5c2da077d25536661385089",
+    "ct": 1788900670,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "history: add skeleton for squash subcommand"
+  },
+  {
+    "sha": "e887fe0b668bfd99fa5ff8b4d82b86ce888a28ea",
+    "ct": 1788900669,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "sequencer: share the squash message marker helpers and flags"
+  },
+  {
+    "sha": "28626dfa66a44c0f5e03e90bb4c3b9c424197ac1",
+    "ct": 1788900669,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "history: give commit_tree_ext a message template"
+  },
+  {
+    "sha": "1dbf1f8e101cec674c15ab218ede2dbb60e91e3b",
+    "ct": 1788900669,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "history: extract helper for a commit's parent tree"
+  },
+  {
+    "sha": "7129d77f1c0c465aca2c1ca5eef4e42b6adf7427",
+    "ct": 1788822829,
+    "author": "Ted Nyman <tnyman@openai.com>",
+    "subject": "fetch-pack: trace packfile URI downloads"
+  },
+  {
+    "sha": "b8242b093d9e941a34460d715e3ce616a34ac3fe",
+    "ct": 1788798726,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "The 23rd batch"
+  },
+  {
+    "sha": "81c1e0b397da27b8763bae83939c1e8c56258b49",
+    "ct": 1788655586,
+    "author": "Aleksei Sviridkin <f@lex.la>",
+    "subject": "doc: cherry-pick: note --no-commit skips CHERRY_PICK_HEAD"
+  },
+  {
+    "sha": "3e4574885f7c0c9e4a3a47dcd3373fa91ab17547",
+    "ct": 1788655586,
+    "author": "Aleksei Sviridkin <f@lex.la>",
+    "subject": "t3507: check no CHERRY_PICK_HEAD after conflicting --no-commit"
+  },
+  {
+    "sha": "ec602484bd9f265a6eb2dd211d066e1116d61cfc",
+    "ct": 1788655069,
+    "author": "Kristoffer Haugsbakk <code@khaugsbakk.name>",
+    "subject": "doc: datamodel: link to the glossary"
+  },
+  {
+    "sha": "5720c0918163c598ace846e045b9b036e89172c6",
+    "ct": 1788655069,
+    "author": "Kristoffer Haugsbakk <code@khaugsbakk.name>",
+    "subject": "doc: glossary: link four of the terms to gitdatamodel(7)"
+  },
+  {
+    "sha": "5745353ddf22db3543e021c931faec2e3b283174",
+    "ct": 1788655069,
+    "author": "Kristoffer Haugsbakk <code@khaugsbakk.name>",
+    "subject": "doc: git: link to the gitdatamodel(7) tutorial"
+  },
+  {
+    "sha": "c655855559a056365b38df831c8481cc3e471c3d",
+    "ct": 1788655069,
+    "author": "Kristoffer Haugsbakk <code@khaugsbakk.name>",
+    "subject": "doc: git: list gitdatamodel(7) as a concept guide"
+  },
+  {
+    "sha": "00fa85023543f86bb7fe71e6ed75a1ab5fb7dfe8",
+    "ct": 1788654944,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "ci: bump debian-11 job to debian-12"
+  },
+  {
+    "sha": "e77f412d84a9717745f6a86de0255ad90a597a2d",
+    "ct": 1788532034,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "builtin/maintenance: improve heuristic for \"rerere gc\""
+  },
+  {
+    "sha": "20c0a93007eb3d4b4659a6ae450b7b2377b1c236",
+    "ct": 1788532034,
+    "author": "Patrick Steinhardt <ps@pks.im>",
+    "subject": "rerere: extract logic to determine whether entries are stale"
+  },
+  {
+    "sha": "fd6c4dc80be5eb13df3141cb546a3c6515e799ea",
+    "ct": 1788471581,
+    "author": "Siddharth Asthana <siddharthasthana31@gmail.com>",
+    "subject": "rev-list: add --missing-only option to filter output"
+  },
+  {
+    "sha": "2ba77ea82891678dee18fe869b0aecaa1019298e",
+    "ct": 1788460356,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "checkout: separate autostash conflict advice from branch-switch message"
+  },
+  {
+    "sha": "786fc390465f535cc2a09922b064e457faa98881",
+    "ct": 1788460356,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "stash: reserve exit status 1 for conflicts"
+  },
+  {
+    "sha": "88d06b1c911e8491029ef24e96e3f412ce24c2ae",
+    "ct": 1788459841,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "pathspec: match and original in pathspec_item are const"
+  },
+  {
+    "sha": "76621488e867bab3a8319098f09a395aea2a8b4a",
+    "ct": 1788457778,
+    "author": "Jinbao Chen <zkd18cjb@mail.ustc.edu.cn>",
+    "subject": "history: do not dereference NULL when parent tree is missing"
+  },
+  {
+    "sha": "3cb9185f65410273787f74333cc027d2ea5daada",
+    "ct": 1788366119,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "The 22nd batch"
+  },
+  {
+    "sha": "2c03739705a593930d2614a3fbd42500701f37a2",
+    "ct": 1788363955,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "submodule--helper: free URL when repository setup fails"
+  },
+  {
+    "sha": "95d48952cc66b299554ebd90aada5c3fbc2a6e7d",
+    "ct": 1788363955,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "repository: make repo_clear() idempotent"
+  },
+  {
+    "sha": "609d2a88349963d1b355062eec97506ec0e69f65",
+    "ct": 1788363333,
+    "author": "Wolfgang Faust <contrib-git@wolfgangfaust.com>",
+    "subject": "imap-send: add --draft to set IMAP \\Draft flag"
+  },
+  {
+    "sha": "cc499d40e5b1523a66271639746a1c05fa7771c9",
+    "ct": 1788323073,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "commit: refuse partial commits during conflict resolution"
+  },
+  {
+    "sha": "6257588252ec0196c3d4567bec2921ed4e68d43e",
+    "ct": 1788323073,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "commit: refuse to amend during conflict resolution"
+  },
+  {
+    "sha": "a3837282fe8415620f1da7e333643d734b03fe07",
+    "ct": 1788323073,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "commit: reword the empty-commit rebase amend error"
+  },
+  {
+    "sha": "d692305326bf24ded5185f1c76fa82b93731db01",
+    "ct": 1788323073,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "commit: allow a partial commit when a rebase pick becomes empty"
+  },
+  {
+    "sha": "aef843026b710be32af1b22128868e49843f11c0",
+    "ct": 1788323073,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "commit: clarify FROM_REBASE_PICK and is_from_rebase() names"
+  },
+  {
+    "sha": "0e96176af4261824b363df146b1f673b14a1fed5",
+    "ct": 1788285858,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "revision: simplify mark_argv_for_free() callers"
+  },
+  {
+    "sha": "66f4856110a7577c12f97ae905c95a6f38adba9d",
+    "ct": 1788285836,
+    "author": "Jeff King <peff@peff.net>",
+    "subject": "revision: hang on to \"freed\" argv elements"
+  },
+  {
+    "sha": "c2a48fdcb56fed3a79bf43b7eac0a4b5ffb32317",
+    "ct": 1788278573,
+    "author": "Michael Montalbo <mmontalbo@gmail.com>",
+    "subject": "t/lib-httpd: document writing concurrency-safe CGI helpers"
+  },
+  {
+    "sha": "b86132120dd67d67da285f075884aa9efc4c59d7",
+    "ct": 1788278573,
+    "author": "Michael Montalbo <mmontalbo@gmail.com>",
+    "subject": "t/lib-httpd: make http-429 first-request check atomic"
+  },
+  {
+    "sha": "59454646906cc0d191170e69c5f3f080ad838995",
+    "ct": 1788278573,
+    "author": "Michael Montalbo <mmontalbo@gmail.com>",
+    "subject": "t/lib-httpd: fix apply-one-time-script race under concurrent requests"
+  },
+  {
+    "sha": "c486c1df728652ee3c87d395bbe5217f7fc07ce8",
+    "ct": 1788209224,
+    "author": "Hardik Kumar <hardikxk@gmail.com>",
+    "subject": "versioncmp: fix typo in versioncmp.c, t/t0022-crlf-rename.sh"
+  },
+  {
+    "sha": "a251b1bd213cc2991ad17c78f2cfe0fad826a159",
+    "ct": 1788199535,
+    "author": "Harald Nordgren <haraldnordgren@gmail.com>",
+    "subject": "ci: cancel stale pull request workflow runs"
+  },
+  {
+    "sha": "354c736978bdc7a1d0bb0f19b81060182a374be6",
+    "ct": 1788197346,
+    "author": "Toon Claes <toon@iotcl.com>",
+    "subject": "replay: offer an option to linearize the commit topology"
+  },
+  {
+    "sha": "446099ef7c6106a73143a651967a6424328c53dd",
+    "ct": 1788197346,
+    "author": "Toon Claes <toon@iotcl.com>",
+    "subject": "replay: resolve the replay base outside pick_regular_commit()"
+  },
+  {
+    "sha": "98b33a62f604c608ae2648750de767b23e961e67",
+    "ct": 1788197345,
+    "author": "Toon Claes <toon@iotcl.com>",
+    "subject": "replay: add helper to put entry into replayed_commits"
+  },
+  {
+    "sha": "1630431f326e15fcde608827b5ff38422528eb59",
+    "ct": 1788189900,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "The 21st batch"
+  },
+  {
+    "sha": "8f909ff4e9e883bf4938c0f0f67b9e1d48cc0167",
+    "ct": 1788122262,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "packfile: recover when a multi-pack-index names a removed pack"
+  },
+  {
+    "sha": "22eef58fba36a6dd9cadfe606b9f711e89266ae3",
+    "ct": 1788122262,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "mktree: do not use OBJECT_INFO_QUICK when checking objects"
+  },
+  {
+    "sha": "6272f3bd174fcd1b394d8b5e05b2ba384bd9f63e",
+    "ct": 1788122262,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "mktree: plug per-tree leak in --batch mode"
+  },
+  {
+    "sha": "b6f5e80fdf32c270ff812c1743e720dedca7d5e2",
+    "ct": 1788122262,
+    "author": "Elijah Newren <newren@gmail.com>",
+    "subject": "replay: fail gracefully when a merge input is unreadable"
+  },
+  {
+    "sha": "c73e85354c275c9d409b26445089bc16940fc527",
+    "ct": 1787940297,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "The 20th batch"
+  },
+  {
+    "sha": "53d330c360227e66298e0f4dba2ce6b6a3a36c37",
+    "ct": 1787937724,
+    "author": "Yoichi NAKAYAMA <yoichi.nakayama@gmail.com>",
+    "subject": "worktree repair: detect relative path in .git file correctly"
+  },
+  {
+    "sha": "8ace32221c2765e27ddbcf4606e9b5c11eaafa30",
+    "ct": 1787854972,
+    "author": "Junio C Hamano <gitster@pobox.com>",
+    "subject": "you_still_use_that(): reword the instructions"
+  },
+  {
+    "sha": "b70101c22431bb77ef1d174cb7309f2eaab68c0e",
+    "ct": 1787851783,
+    "author": "Yoichi NAKAYAMA <yoichi.nakayama@gmail.com>",
+    "subject": "worktree add: treat multiple matches with --guess-remote as an error"
+  },
+  {
+    "sha": "85489606d89d44d7aed6e46839ec8ff46f52562d",
+    "ct": 1787851783,
+    "author": "Yoichi NAKAYAMA <yoichi.nakayama@gmail.com>",
+    "subject": "worktree add: improve message for ambiguous remote branch name"
+  }
+]
