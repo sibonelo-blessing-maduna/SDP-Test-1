@@ -1,0 +1,13 @@
+{
+  "id": "redis",
+  "name": "redis",
+  "source": "https://github.com/redis/redis.git",
+  "ref_sha": "b540ca49cba815f3fbe634363c3df68d4f4f127a",
+  "commit_count": 11874,
+  "status": "ready",
+  "progress": 1.0,
+  "authors_count": 1034,
+  "files_count": 2863,
+  "dirs_count": 204,
+  "error": null
+}

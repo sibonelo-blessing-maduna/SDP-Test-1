@@ -1,0 +1,1202 @@
+[
+  {
+    "sha": "6d9f2443ab071f86e5d9b43025a40929ec41c46c",
+    "ct": 1789523735,
+    "author": "lilu5458 <lilu@kylinos.cn>",
+    "subject": "Fix: heap-use-after-free in merge_patch when patch is subtree of target (#1065)"
+  },
+  {
+    "sha": "fb16e5cf358798aabb049655975cde8427101056",
+    "ct": 1775699951,
+    "author": "Ssh1y Ripple <62094604+Ssh1y@users.noreply.github.com>",
+    "subject": "Fix: Type Confusion vulnerability in cJSON_Utils caused by missing type check (#1006)"
+  },
+  {
+    "sha": "b2890c8d76bbb64e710585ebc0a917196b9c67e7",
+    "ct": 1773314316,
+    "author": "Lee <peteralfredlee@gmail.com>",
+    "subject": "fix: prevent NULL pointer dereference in cJSON_SetNumberHelper (#991)"
+  },
+  {
+    "sha": "a3f3d6c7843f3021b648623d13bc4fbca0084838",
+    "ct": 1773314295,
+    "author": "Lee <peteralfredlee@gmail.com>",
+    "subject": "docs: fix outdated CMake version requirement in README (#990)"
+  },
+  {
+    "sha": "5cc0e39f42dfe28cb8541f95fa2c513f0d550210",
+    "ct": 1772005205,
+    "author": "liloler <1258447103@qq.com>",
+    "subject": "Fix: add depth check to prevent stack overflow in cJSON_Print (#984)"
+  },
+  {
+    "sha": "a29814f285cc531c00223743ad3c55cd38c0dc56",
+    "ct": 1770455631,
+    "author": "Lee <peteralfredlee@gmail.com>",
+    "subject": "upgrade version of cmake_minimum_required (#986)"
+  },
+  {
+    "sha": "c859b25da02955fef659d658b8f324b5cde87be3",
+    "ct": 1757426170,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "Release 1.7.19 (#958)"
+  },
+  {
+    "sha": "74e1ff4994aa4139126967f6d289b675b4b36fef",
+    "ct": 1757055200,
+    "author": "Lee <peteralfredlee@gmail.com>",
+    "subject": "fix the incorrect check in decode_array_index_from_pointer (#957)"
+  },
+  {
+    "sha": "8f2beb57ddad1f94bed899790b00f46df893ccac",
+    "ct": 1746588688,
+    "author": "PeterAlfredLee <peteralfredlee@gmail.com>",
+    "subject": "bump version of actions/upload-artifact"
+  },
+  {
+    "sha": "a328d65ad490b64da8c87523cbbfe16050ba5bf6",
+    "ct": 1746588688,
+    "author": "PeterAlfredLee <peteralfredlee@gmail.com>",
+    "subject": "allocate memory for the temporary buffer"
+  },
+  {
+    "sha": "12c4bf1986c288950a3d06da757109a6aa1ece38",
+    "ct": 1727089738,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "Wrong counter increment"
+  },
+  {
+    "sha": "9d1b229086a7b069fb5f4e3be0226a22480a6707",
+    "ct": 1727089738,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "Added max recusrion depth for cJSONDuplicate to prevent stack exhaustion in case of circular reference"
+  },
+  {
+    "sha": "078c4e6c53f13dff15f0eaac1611abb6379e0206",
+    "ct": 1724988568,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "Free mem in cjson_set_valuestring_should_return_null_if_strings_overlap"
+  },
+  {
+    "sha": "4f4d7f70c253927c4d8130771168c9fa7864d2d4",
+    "ct": 1724988568,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "CJSON_SetValuestring: better test for overlapping string"
+  },
+  {
+    "sha": "b47edc4750301a17bcc72bf20323d2f625a4ae05",
+    "ct": 1724988568,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "CJSON_SetValuestring: add test for overlapping string"
+  },
+  {
+    "sha": "d6d5449e1f271556ea8e6ec0f3026ceb0b4a9508",
+    "ct": 1724988568,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "fix #881, check overlap before calling strcpy in cJSON_SetValuestring"
+  },
+  {
+    "sha": "a78d975537a8df40d58a96f8ce326d7fb625e1e5",
+    "ct": 1724988545,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "cJSON_DetachItemViaPointer: added test and fix for check for null in item->prev"
+  },
+  {
+    "sha": "f28a468e3b287d633fea5d4d5ab444bb9354b4bc",
+    "ct": 1724988545,
+    "author": "Nicolas Badoux <n.badoux@hotmail.com>",
+    "subject": "Check for NULL in cJSON_DetachItemViaPointer"
+  },
+  {
+    "sha": "424ce4ce9668f288fb4ab665775546d3ed709e96",
+    "ct": 1718765881,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Revert \"feat: add tests for #842\" to fix test failures"
+  },
+  {
+    "sha": "324973008ced4ea03d1626a00915d0399ecbd9db",
+    "ct": 1715651039,
+    "author": "Shaun Case <shaunc@aja.com>",
+    "subject": "Fix spelling errors found by CodeSpell.  See https://github.com/codespell-project/codespell"
+  },
+  {
+    "sha": "8a334b014038ef02065fcd41e6096c99102bcc36",
+    "ct": 1715650966,
+    "author": "DL6ER <dl6er@dl6er.de>",
+    "subject": "Fix indentation (should use spaces)"
+  },
+  {
+    "sha": "acc76239bee01d8e9c858ae2cab296704e52d916",
+    "ct": 1715595975,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add contributors"
+  },
+  {
+    "sha": "76be8fcf15677ca7f6db7c770f5ae6bf8b41d78f",
+    "ct": 1715595975,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Release 1.7.18"
+  },
+  {
+    "sha": "5b502cdbfb21fbe5f6cf9ffbd2b96e4281a741e6",
+    "ct": 1715591926,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "feat: add tests for #842"
+  },
+  {
+    "sha": "542fb0eadd3db62630c1eb958e685f1d8e30694e",
+    "ct": 1715591926,
+    "author": "maebex <maximilian.berndt11@web.de>",
+    "subject": "Set free'd pointers to NULL whenever they are not reassigned immediately after"
+  },
+  {
+    "sha": "a20be7996dbb05631fbc98ab48fa6be31fe5c275",
+    "ct": 1715220558,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix: remove misused optimization flag -01"
+  },
+  {
+    "sha": "3ef4e4e730e5efd381be612df41e1ff3f5bb3c32",
+    "ct": 1714966413,
+    "author": "orri <orri@systemb.is>",
+    "subject": "Fix heap buffer overflow"
+  },
+  {
+    "sha": "826cd6f842ae7e46ee38bbc097f9a34f2947388d",
+    "ct": 1714966413,
+    "author": "orri <orri@systemb.is>",
+    "subject": "Add test for heap buffer overflow"
+  },
+  {
+    "sha": "98f9eb0412067a852ec107c68e49180fe4e472dc",
+    "ct": 1714963697,
+    "author": "orri <orri@systemb.is>",
+    "subject": "Remove non-functional list handling of compiler flags"
+  },
+  {
+    "sha": "19396a49a60a1937bc8cbf30ab5579f089ee2f0f",
+    "ct": 1714356095,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update comments and add tests for cJSON_SetValuestring"
+  },
+  {
+    "sha": "5671646e9779ef8fa35990a5084e7e472e024862",
+    "ct": 1714270258,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix: fix incorrect name in security.md"
+  },
+  {
+    "sha": "66e9dff670a953586d4e75296f021a1c40f66768",
+    "ct": 1714121880,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "Create SECURITY.md"
+  },
+  {
+    "sha": "7e4d5dabe7a9b754c601f214e65b544e67ba9f59",
+    "ct": 1714120445,
+    "author": "Up-wind <lj.upwind@gmail.com>",
+    "subject": "Add NULL check to cJSON_SetValuestring()"
+  },
+  {
+    "sha": "87d8f0961a01bf09bef98ff89bae9fdec42181ee",
+    "ct": 1703557476,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Release 1.7.17"
+  },
+  {
+    "sha": "f66cbab4bfb3926ffd4c5e13f9fb6d506ee0241d",
+    "ct": 1703041523,
+    "author": "Lee <peteralfredlee@gmail.com>",
+    "subject": "fix error in null checkings (#810)"
+  },
+  {
+    "sha": "60ff122ef5862d04b39b150541459e7f5e35add8",
+    "ct": 1702871272,
+    "author": "Lee <peterlee@apache.org>",
+    "subject": "add NULL checkings (#809)"
+  },
+  {
+    "sha": "cb8693b058ba302f4829ec6d03f609ac6f848546",
+    "ct": 1688527339,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "Release 1.7.16 (#770)"
+  },
+  {
+    "sha": "545710e3bfff09f875222b003de9044699769301",
+    "ct": 1688461323,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "upgrade clang to fix actions error (#768)"
+  },
+  {
+    "sha": "543c28869e4b215522635b7270b4b7cbb43030af",
+    "ct": 1688348130,
+    "author": "MaxBrandtner <maximilian.immanuel.brandtner@protonmail.com>",
+    "subject": "Add meson documentation (#761)"
+  },
+  {
+    "sha": "766dd9d590bfbda32e6f77bff096c15eebffa3f0",
+    "ct": 1688199512,
+    "author": "hopper-vul <118949689+hopper-vul@users.noreply.github.com>",
+    "subject": "Fix a null pointer crash in cJSON_ReplaceItemViaPointer (#726)"
+  },
+  {
+    "sha": "b45f48e600671feade0b6bd65d1c69de7899f2be",
+    "ct": 1648537379,
+    "author": "Junbo Zheng <3273070@qq.com>",
+    "subject": "fix: add allocate check for replace_item_in_object (#675)"
+  },
+  {
+    "sha": "a6424b85dde200a87cac26451c6f0a6f3426681f",
+    "ct": 1643199890,
+    "author": "Stoian Ivanov <st.iv.sdr@gmail.com>",
+    "subject": "feat: add cJSON_SetBoolValue and test (#639)"
+  },
+  {
+    "sha": "3cecc404664860bb4edbd9563b511bdf009d57ad",
+    "ct": 1643199813,
+    "author": "mohawk2 <mohawk2@users.noreply.github.com>",
+    "subject": "docs: Fix README typo (#664)"
+  },
+  {
+    "sha": "2fc55f6793ff6a427e795cf3b8a68a534afb78a2",
+    "ct": 1642659837,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "chore: add CIFuzz integration (#437)"
+  },
+  {
+    "sha": "c7025b093aafec4da590638afe8453fee1899a97",
+    "ct": 1642659466,
+    "author": "Tony Langhammer <tony.langhammer@yahoo.de>",
+    "subject": "chore: ignore all .dylib files (#628)"
+  },
+  {
+    "sha": "e7ebe77ebfb1251e0ea33086efaa82ac038c4e0c",
+    "ct": 1642580909,
+    "author": "10km <10km0811@sohu.com>",
+    "subject": "fix: 'cjson_utils-static' target not exist(#625)"
+  },
+  {
+    "sha": "61eb84d991cede2d6331a1222f872a93a054ace5",
+    "ct": 1642574702,
+    "author": "Andy <mlh0101@126.com>",
+    "subject": "add an option for ENABLE_CJSON_VERSION_SO in CMakeLists.txt (#534)"
+  },
+  {
+    "sha": "d321fa9e6e574ff93518f6384865b9af0a4a4afc",
+    "ct": 1642559431,
+    "author": "AlexanderVasiljev <48011002+AlexanderVasiljev@users.noreply.github.com>",
+    "subject": "fix: print int without decimal places (#630)"
+  },
+  {
+    "sha": "203a0dec6ff06e3842fa23a1bc9825aecf56b381",
+    "ct": 1634890915,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "chore: ignore *.lst/*.lss file (#623)"
+  },
+  {
+    "sha": "c77a68892761a1f4b1d5aadec72434615fcd1d85",
+    "ct": 1634890519,
+    "author": "Joshua Arulsamy <joshua.gf.arul@gmail.com>",
+    "subject": "build: Bump cmake version and use new version syntax (#587)"
+  },
+  {
+    "sha": "e5dbaee1316d0b36e8e120b4420c9b92352057a5",
+    "ct": 1634890185,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "docs: update comment (#622)"
+  },
+  {
+    "sha": "189dcde644a08f3e26af9663511b3373f8f2d73c",
+    "ct": 1634889726,
+    "author": "SuperHuan <jimsong2010@163.com>",
+    "subject": "fix: add cmake_policy to CMakeLists.txt (#613)"
+  },
+  {
+    "sha": "b9eff8b02afd0e2612b695fb8d67d56839b126ce",
+    "ct": 1634889425,
+    "author": "Sayan Bandyopadhyay <sabandyopadh@cs.stonybrook.edu>",
+    "subject": "fix: for issue #569, now use the guard to turn it off (#617)"
+  },
+  {
+    "sha": "f50dafc7d0bfd4f45449ab5665bfea831a82f2eb",
+    "ct": 1629958422,
+    "author": "Alan Wang <948467222@qq.com>",
+    "subject": "fix: potential memory leak in merge_patch() (#611)"
+  },
+  {
+    "sha": "d348621ca93571343a56862df7de4ff3bc9b5667",
+    "ct": 1629890109,
+    "author": "Alan Wang <948467222@qq.com>",
+    "subject": "chore: update version and changelog (#610)"
+  },
+  {
+    "sha": "744e47353accda69c4d2f3d022eeacbf7b7d463e",
+    "ct": 1629874920,
+    "author": "Alan Wang <948467222@qq.com>",
+    "subject": "fix: remove redundant condition (#605)"
+  },
+  {
+    "sha": "7795249dd42ad4fa9874c57947a699567b896fd1",
+    "ct": 1629874872,
+    "author": "Dimitri Papadopoulos Orfanos <3234522+DimitriPapadopoulos@users.noreply.github.com>",
+    "subject": "Typos found by codespell (#607)"
+  },
+  {
+    "sha": "324a6ac9a9b285ff7a5a3e5b2071e3624b94f2db",
+    "ct": 1609382290,
+    "author": "CoffeeTableEspresso <thiabaud.engelbrecht@gmail.com>",
+    "subject": "Update .gitattributes (#544)"
+  },
+  {
+    "sha": "6ea4c01e4e6ff579de0ae4a5f44768307cbb9c69",
+    "ct": 1609381599,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "Fix potential core dumped for strrchr (#546)"
+  },
+  {
+    "sha": "9226e4ed8c282c2d25669646e8802d00321a57dc",
+    "ct": 1608196038,
+    "author": "Jordan IMBERT <ecrin4102@protonmail.com>",
+    "subject": "Remove always true condition in cJSON.c (#539)"
+  },
+  {
+    "sha": "7b6645794d67eebb20678d8d30e8e8ba5357184a",
+    "ct": 1608190951,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "Fix null pointer crash, closes #536 (#538)"
+  },
+  {
+    "sha": "4100379a04f2f2838ffb00c4ad3d0dd9e49f4147",
+    "ct": 1605488222,
+    "author": "Tim Gates <tim.gates@iress.com>",
+    "subject": "docs: fix simple typo, transfering -> transferring (#527)"
+  },
+  {
+    "sha": "2f6fc7f0f28b4dab68a3d7fcf447beabefd04afb",
+    "ct": 1605152775,
+    "author": "mongobaba <66656234+mongobaba@users.noreply.github.com>",
+    "subject": "fix several null pointer problems on allocation failure (#526)"
+  },
+  {
+    "sha": "9bf4960cd525428ddbfb9b13f39c4269083b18d7",
+    "ct": 1602839189,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix a possible dereference of null pointer"
+  },
+  {
+    "sha": "9931900768d51e331e8433c4ffdc2de0c637369d",
+    "ct": 1602730326,
+    "author": "Use <fpnuseis@naver.com>",
+    "subject": "fix: windows build failure about defining nan"
+  },
+  {
+    "sha": "8e84db4c4e631c5578a1d2365bbcc9d814ab8a51",
+    "ct": 1599124262,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Update changelog and contributors"
+  },
+  {
+    "sha": "8e357f825b12a91931a518949e24b77685ee609b",
+    "ct": 1599124069,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Update version to 1.7.14"
+  },
+  {
+    "sha": "c8ca78a3cc2045f3714f04dab7152a67215bca80",
+    "ct": 1599049432,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "optimize the way to find tail node"
+  },
+  {
+    "sha": "23f027139e5f0da860b41e6b8eb3045ba08335e8",
+    "ct": 1598532360,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "remove float-divide-by-zero for supporting NAN"
+  },
+  {
+    "sha": "857c037ccce67ca58da196f1dd46d3d4a21f6474",
+    "ct": 1598531164,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add github actions CI"
+  },
+  {
+    "sha": "1ef4deec0664b2500212da805c017ef08c96b500",
+    "ct": 1593139996,
+    "author": "h00283522 <hukeping@huawei.com>",
+    "subject": "Remove unnecessary files in release tarball"
+  },
+  {
+    "sha": "4578d3a9e143224e75ab74b14dd73865cbf0338b",
+    "ct": 1592896652,
+    "author": "Kevin Sapper <mail@kevinsapper.de>",
+    "subject": "Problem: WError error on macosx because NAN is a float"
+  },
+  {
+    "sha": "b95a4c56b05fb3200780c1cacc3b1659a2832f8e",
+    "ct": 1592796204,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix #376"
+  },
+  {
+    "sha": "1fc755ac0964cd56d9a2564967dc4747be223f23",
+    "ct": 1588756722,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "array's item should be in the list"
+  },
+  {
+    "sha": "7103844037668db882ae183845735ec08249fd1a",
+    "ct": 1588243510,
+    "author": "Moorthy <36617743+moorthy-bs@users.noreply.github.com>",
+    "subject": "pkgconfig: cjson include dir added"
+  },
+  {
+    "sha": "3442b366720d1046c827b4df4b26ccd0ecb66b2c",
+    "ct": 1587117699,
+    "author": "Romain Lesteven <romain.lesteven@armaturetech.com>",
+    "subject": "Fix make.sh install unwanted config files"
+  },
+  {
+    "sha": "cb4661cd91fc6d6f9e81b627967735f7072f901c",
+    "ct": 1585905662,
+    "author": "miaoerduo <zhaoyu3210@foxmail.com>",
+    "subject": "fix: errors in replacing the first item when array_size is 1, and replacing the last item"
+  },
+  {
+    "sha": "a65abf2f4f1842765761a616e93c14ae25a284fd",
+    "ct": 1585905657,
+    "author": "miaoerduo <zhaoyu3210@foxmail.com>",
+    "subject": "fix: error list head's prev when detach the last item"
+  },
+  {
+    "sha": "3999b12848214a201bf56ef416b9dac1ec63f811",
+    "ct": 1585905642,
+    "author": "miaoerduo <zhaoyu3210@foxmail.com>",
+    "subject": "feat: set list head's prev in parse_array and parse_object"
+  },
+  {
+    "sha": "39853e5148dad8dc5d32ea2b00943cf4a0c6f120",
+    "ct": 1585841750,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Update changelog"
+  },
+  {
+    "sha": "ff0dabc72e261d34eb7d4a84349dd98286f0910e",
+    "ct": 1585841668,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Update version to 1.7.13"
+  },
+  {
+    "sha": "5d55c6c2ee77805f4c8943ed419fb97fb60d748d",
+    "ct": 1585841550,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix error C2124 in visual studio"
+  },
+  {
+    "sha": "97cf1d84e4688d0f5c96e67848770f9a58632e03",
+    "ct": 1585827395,
+    "author": "Sang-Heon Jeon <ekffu200098@gmail.com>",
+    "subject": "Add getNumberValue function"
+  },
+  {
+    "sha": "983bb2b4d67124688d2116924f0b58c1b80acf88",
+    "ct": 1585826676,
+    "author": "caglarivriz <caglarivriz@gmail.com>",
+    "subject": "Added cJSON_ParseWithLength (#358)"
+  },
+  {
+    "sha": "4e114c1f3132e1a4db46ab8e8c6aa33ecde3def8",
+    "ct": 1585815850,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update testcase, fixes #433"
+  },
+  {
+    "sha": "8943c733455f12c82c8c82bd9f1c848ae8e91b09",
+    "ct": 1585814544,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "comparing double value with DBL_EPSILON"
+  },
+  {
+    "sha": "af56a146fda8167ed8fe04608fe2b7dec7edcb2f",
+    "ct": 1585796807,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update testcase"
+  },
+  {
+    "sha": "131966f748580f97a6201d0908dcf1178bc3bb7a",
+    "ct": 1585796410,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add return value for cJSON_ReplaceItemxxx"
+  },
+  {
+    "sha": "bd7cbe9776ed4fc0f2ae55a6a7e1e33761918ccf",
+    "ct": 1585739940,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "false has been redefined to cJSON_False"
+  },
+  {
+    "sha": "54d6b8016e4b8f4e43b2811ddcd23e58c813f44f",
+    "ct": 1585203532,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add return value for  cJSON_AddItemTo..."
+  },
+  {
+    "sha": "31c7880fab5722a6fef47589c5064f7445d39f1d",
+    "ct": 1585121934,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update cJSON_SetValuestring and testcase"
+  },
+  {
+    "sha": "34e102d0dc91d274b66b5faa434140ac90a92598",
+    "ct": 1585060115,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update README"
+  },
+  {
+    "sha": "4790c3c8f52cc08ad584e148c4e3d93d9d063f0c",
+    "ct": 1585060107,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add testcase for cJSON_SetValuestringToObject"
+  },
+  {
+    "sha": "6b35f1c5bc347377ea32881914a0fe5d60e730e6",
+    "ct": 1585060095,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add new function of setValuestringToObject"
+  },
+  {
+    "sha": "3ece4c893c123aa3d77f90d580cf6b0a4b3a2ad5",
+    "ct": 1585037845,
+    "author": "Alan Wang <wp_scut@163.com>",
+    "subject": "Improve performance of adding item to array (#448)"
+  },
+  {
+    "sha": "fa28d82f2e9fcb975ce9977c958afcbc34adf137",
+    "ct": 1584629884,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update contributors"
+  },
+  {
+    "sha": "d92c0de7e8189e461546e751b84f0b1048ea6e3d",
+    "ct": 1584518698,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix encode_string_as_pointer"
+  },
+  {
+    "sha": "9034a9cd0be8f1b1441681ff57b2027a463b3329",
+    "ct": 1584371079,
+    "author": "Alan Wang <948467222@qq.com>",
+    "subject": "Revert \"use prev pointer when array do adding (#430)\""
+  },
+  {
+    "sha": "b0e7195a749c66cdff53b0548483a8d8e5a7bd83",
+    "ct": 1583757608,
+    "author": "Square789 <46634729+Square789@users.noreply.github.com>",
+    "subject": "Spelling; \"it's\"->\"its\""
+  },
+  {
+    "sha": "e8077d01500279a7b45b8cd7a0ae94ea7ad5748a",
+    "ct": 1581998063,
+    "author": "xiaomianhehe <hongshaokai@hotmail.com>",
+    "subject": "use prev pointer when array do adding (#430)"
+  },
+  {
+    "sha": "895b9ad344358467e9b136bbb868290c0e3752ed",
+    "ct": 1581395102,
+    "author": "dm8.kim <dm8.kim@hanwha.com>",
+    "subject": "formatting README.md"
+  },
+  {
+    "sha": "f790e17b6cecef030c4eda811149d238c2085fcf",
+    "ct": 1579418628,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update content in README"
+  },
+  {
+    "sha": "ada21691830277bfcdb41d547c35820b9d28cbe9",
+    "ct": 1579417739,
+    "author": "NancyLi1013 <lirui09@beyondsoft.com>",
+    "subject": "Update changes"
+  },
+  {
+    "sha": "cc78050ff4bd75935c7e8007308359d10eee1401",
+    "ct": 1579416466,
+    "author": "NancyLi1013 <lirui09@beyondsoft.com>",
+    "subject": "Add vcpkg installation instructions"
+  },
+  {
+    "sha": "74b2f038371d0359c11bf082c603e7aa11d360b2",
+    "ct": 1579360699,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "remove annoying float-equal option"
+  },
+  {
+    "sha": "fa8b4545522a7b9031246158f12164ed5698fbf5",
+    "ct": 1579165852,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "correct mistake"
+  },
+  {
+    "sha": "ea532cdd61a7adcece63caf0e691152130d3faf1",
+    "ct": 1575969646,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update CHANGELOG.md"
+  },
+  {
+    "sha": "4e3335618f4bf9583838dc254427f2307c5879e2",
+    "ct": 1575859005,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "improve compare_double"
+  },
+  {
+    "sha": "ea3a6dcd69cc77ad652f4fde97accf7b30f2f40b",
+    "ct": 1575721447,
+    "author": "ChenYuan <github@qiushi.ac.cn>",
+    "subject": "Update cJSON_Utils.c"
+  },
+  {
+    "sha": "c06d8264d010186c3ac98fd1eaccf9b2ba735728",
+    "ct": 1575627387,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "improve compare_double function"
+  },
+  {
+    "sha": "1f970e7db36f5dc61946f5a3fbc38ada88c43464",
+    "ct": 1575623472,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix double comparison"
+  },
+  {
+    "sha": "98ecc0245a9c40de96a8b6285621ec5e5eae8c01",
+    "ct": 1575617565,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "revert R_CFLAGS"
+  },
+  {
+    "sha": "500a9db81bca54027ce8de2ce42b48fa89782e78",
+    "ct": 1575515107,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix memory leak mentioned in issue 414"
+  },
+  {
+    "sha": "f3b6ad15f0282e8f6ed31e7169d893bb8630ff68",
+    "ct": 1574943344,
+    "author": "Erez Oxman <erez.oxman@gmail.com>",
+    "subject": "Added blank lines in Readme.md"
+  },
+  {
+    "sha": "446ff0d6cc58de3380ce39f506cb858ca2d2947f",
+    "ct": 1574906164,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix issue#327"
+  },
+  {
+    "sha": "c64854b26edb9760fd5fb6fcbc5b6d7aa3b61236",
+    "ct": 1573829023,
+    "author": "rolegic <8974088+rolegic@users.noreply.github.com>",
+    "subject": "Fixed different argument between declaration and definition"
+  },
+  {
+    "sha": "4755aea8377fd69202db235d4f4a49440c8a2270",
+    "ct": 1572579014,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix make failed in mac os"
+  },
+  {
+    "sha": "44547317756f1d3b5d6ee05b49c6b1d577b31fda",
+    "ct": 1572336862,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "update readme"
+  },
+  {
+    "sha": "bb059dc2e1dbcc47c6e2a932f762c390c8aaf45e",
+    "ct": 1572335291,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add uninstall target in cmake"
+  },
+  {
+    "sha": "de99175cd0892828dcd0838a78fdf5c6ccde2866",
+    "ct": 1572330076,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix rmdir error (#401)"
+  },
+  {
+    "sha": "a417b183c6661a41f78a4ff039ad8a01321cdcf5",
+    "ct": 1572324456,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "add new line to endif"
+  },
+  {
+    "sha": "49a0ede475c9042a868f15718fad911f7423597a",
+    "ct": 1571744261,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "ossfuzz: build with c++ compiler"
+  },
+  {
+    "sha": "73b0e739d0cfc7036ef36c2736970032605eb6c7",
+    "ct": 1571743961,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "fuzz: add support for compiling with c++ compiler"
+  },
+  {
+    "sha": "6b728982f2073ea334ad436ebb5dae92486e0812",
+    "ct": 1571741113,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "ossfuzz.sh: fix permission bits"
+  },
+  {
+    "sha": "ec8d2f9c2e9de7524f9ddd78d39605d5fc6987ef",
+    "ct": 1571664467,
+    "author": "randy408 <randy408@protonmail.com>",
+    "subject": "convert fuzz target to c89, optimize"
+  },
+  {
+    "sha": "bcc91ecbc37c68390f3c9339cb51428c30dd2b1e",
+    "ct": 1571486001,
+    "author": "Julian Ste <31321934+julian-st@users.noreply.github.com>",
+    "subject": "initilize variables in print_number"
+  },
+  {
+    "sha": "26772a8ef7affe5ed96c831eddfb6b69146cc2d2",
+    "ct": 1571313795,
+    "author": "Bernt Johan Damslora <bernt.johan.damslora@nordicsemi.no>",
+    "subject": "Add const qualifier to cJSON_CreateStringArray"
+  },
+  {
+    "sha": "dc56e24f7f1d3ffc72e8b5a0039c6137b43e89d4",
+    "ct": 1571065933,
+    "author": "randy408 <randy408@protonmail.com>",
+    "subject": "add build script"
+  },
+  {
+    "sha": "e52b212dbfc583f933ee199bd54e82fdfa8da561",
+    "ct": 1569755207,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix typos in REAM.md file"
+  },
+  {
+    "sha": "ae49da2b61a378b9c0e07572ca759cd305c8b9c8",
+    "ct": 1569058945,
+    "author": "Alanscut <948467222@qq.com>",
+    "subject": "Revert \"Replace strcpy with strncpy, sprintf with snprintf\""
+  },
+  {
+    "sha": "189b51c5dae85e193ec1601079e4a2a61145f3b4",
+    "ct": 1568169764,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "format comment"
+  },
+  {
+    "sha": "c61573f1af9df53515cbdc5dae39a9b2e8a7740f",
+    "ct": 1568166690,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "format adjustment"
+  },
+  {
+    "sha": "bd1a375028a29f2ee39a96ac8459b8ea4711ed0a",
+    "ct": 1566661368,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "add fuzzer driver, integrate with build system"
+  },
+  {
+    "sha": "b6da0d6565f7b5095fd5ecb9aa197393324788e0",
+    "ct": 1566654213,
+    "author": "Sang-Heon Jeon <ekffu200098@gmail.com>",
+    "subject": "Correct typo error"
+  },
+  {
+    "sha": "166c814cda8e78bcf27fbbc815f945ceb21af5c5",
+    "ct": 1565600789,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "eliminate warning when compiling cJSON"
+  },
+  {
+    "sha": "c680faea56d4089d857c091f39679384fe6f392e",
+    "ct": 1563972401,
+    "author": "Vemake <vemakereporter@gmail.com>",
+    "subject": "Update Makefile"
+  },
+  {
+    "sha": "2d6db59c7bddee0f052b5ed511bcfd4306badaa9",
+    "ct": 1562850550,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "update fuzzer"
+  },
+  {
+    "sha": "e6bc5d16e6e1c336523fbda6493c4f7ee3863415",
+    "ct": 1562850184,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "update fuzzer"
+  },
+  {
+    "sha": "2691e142f4a881b470e7d5e889ef4ca4a589cadf",
+    "ct": 1562848947,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "update fuzzer"
+  },
+  {
+    "sha": "f7f175fdf298b644efdd43e38be66608c13ccdb6",
+    "ct": 1562846167,
+    "author": "Randy <randy408@protonmail.com>",
+    "subject": "add fuzz target"
+  },
+  {
+    "sha": "9d766f07a793e3277ff14c231540887179001651",
+    "ct": 1561702922,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "fix const cast warnings in cJSON_GetStringValue"
+  },
+  {
+    "sha": "85ceadb4b42bd8c80893595bf25a4a8acb24dae4",
+    "ct": 1561454723,
+    "author": "Alanscut <wp_scut@163.com>",
+    "subject": "Add a comment to the parameter count of the cJSON_CreateIntArray function."
+  },
+  {
+    "sha": "110f184d18c3a33debc45bcf066e32fb61021baf",
+    "ct": 1560639483,
+    "author": "Sanjeev BA <iamsanjeev@gmail.com>",
+    "subject": "Fix typos."
+  },
+  {
+    "sha": "c9e8a68b00a39d14c91aade54910584d01470a59",
+    "ct": 1560159423,
+    "author": "Pawe\u0142 Malowany <pma@omni3d.net>",
+    "subject": "Fix clang -Wfloat-equal warning"
+  },
+  {
+    "sha": "16f56300e48716dfb2e5af978f38992c55257c6d",
+    "ct": 1559165133,
+    "author": "singku <tangliang551@gmail.com>",
+    "subject": "Replace strcpy with strncpy, sprintf with snprintf"
+  },
+  {
+    "sha": "5fe80a94b64f542f100634c4caea843b254ed3e1",
+    "ct": 1558491853,
+    "author": "Alan_scut <wp_scut@163.com>",
+    "subject": "add comment for cJSON_Minify function"
+  },
+  {
+    "sha": "b93fd34044a3ab3d956b1a6c733d609853ada854",
+    "ct": 1558046246,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Update changelog and contributors"
+  },
+  {
+    "sha": "687b1a2fe1e36a965083927981703f8f8d22a78e",
+    "ct": 1558029792,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Update version to 1.7.12"
+  },
+  {
+    "sha": "08d2bc766a82cd75764d036f9efef444590d1cf9",
+    "ct": 1558029662,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Fix infinite loop in cJSON_Minify"
+  },
+  {
+    "sha": "19ff92da79ee37c81a4cdf1f50a8dd1cbb02e84f",
+    "ct": 1557531453,
+    "author": "Winterreise <tanwei0404@163.com>",
+    "subject": "Add link dependency to fix tests link error when ENABLE_CJSON_UTILS is ON"
+  },
+  {
+    "sha": "3a4cfa84c3ce5f7a6439a689dcacbdd42732ed0e",
+    "ct": 1557169626,
+    "author": "Simon Sobisch <simonsobisch@web.de>",
+    "subject": "allow to override PIC_FLAGS and compiler std"
+  },
+  {
+    "sha": "359567fdde253f311545a6c80b0fa6fb62e8ff09",
+    "ct": 1556440424,
+    "author": "raiden00pl <raiden00pl@gmail.com>",
+    "subject": "Undef true and false first also for cJSON_Utils.c"
+  },
+  {
+    "sha": "6b249213dd1bfdb0f2791eec20c65aa4bb4ce301",
+    "ct": 1555279595,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Fix clang -Wcomma warning"
+  },
+  {
+    "sha": "09ebae8149fb377f40d09615d48d80fe9fe2ed06",
+    "ct": 1555279082,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release cJSON 1.7.11"
+  },
+  {
+    "sha": "a43fa56a63920343d0ac8f8e73a6b0447867f459",
+    "ct": 1555276728,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Rewrite cJSON_Minify, fixing buffer overflows, fixes #338"
+  },
+  {
+    "sha": "9a970b9ff66fae45f45ea4bf9bce602aa9b8d0c7",
+    "ct": 1555242088,
+    "author": "myd7349 <myd7349@gmail.com>",
+    "subject": "CMake: Improve install target"
+  },
+  {
+    "sha": "5a52eaddfd3a36f5e68e73549eb87344812e826b",
+    "ct": 1555112663,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Undef true and false first, fixes #339"
+  },
+  {
+    "sha": "add86a6be85ee9a3c82875275cd18d31d927fa7a",
+    "ct": 1552920994,
+    "author": "Donough Liu <ldm2993593805@163.com>",
+    "subject": "Update cJSON.c"
+  },
+  {
+    "sha": "c69134d01746dcf551dd7724b4edb12f922eb0d1",
+    "ct": 1545326105,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release Version 1.7.10"
+  },
+  {
+    "sha": "563d861f921492dae64e810c6673c991f1d2d3e2",
+    "ct": 1545325943,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "cJSON_Utils: sort_lists: Properly split the lists"
+  },
+  {
+    "sha": "6820448db52885a6828d805c1ce8ee7fcf6e4d65",
+    "ct": 1545325492,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "libcjson.pc.in: Use Libs.private instead of Private"
+  },
+  {
+    "sha": "d44b594ab39d0de210ef86cfc72677995a52ab84",
+    "ct": 1544955695,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Add missing changelog entry"
+  },
+  {
+    "sha": "f110bd2e585394bf47baca34a06df2569a9232b6",
+    "ct": 1544955440,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release Version 1.7.9"
+  },
+  {
+    "sha": "5cd1dabb3052b9a17c32180faf93804dc56af05a",
+    "ct": 1544955391,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Add yuta-oxo to the Contributors"
+  },
+  {
+    "sha": "be749d7efa7c9021da746e685bd6dec79f9dd99b",
+    "ct": 1544954800,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Fix crash of cJSON_GetObjectItemCaseSensitive when calling it on arrays"
+  },
+  {
+    "sha": "eaec82c3c557401a43e4b4ea5763b06830d7c362",
+    "ct": 1544594993,
+    "author": "yuta-oxo <13583684+yuta-oxo@users.noreply.github.com>",
+    "subject": "fix bug: sort_list() returns strange results"
+  },
+  {
+    "sha": "cb1df2f88c0d335e031ade0d52fd6a59528c622f",
+    "ct": 1543874856,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "README: Add note about needing to free print results in examples"
+  },
+  {
+    "sha": "2c914c073d71701b596fa58a84529712a0bd1eeb",
+    "ct": 1539510761,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Gitignore: Ignore CLion directories"
+  },
+  {
+    "sha": "49170247413232d3cfa489fb1209037e697ced08",
+    "ct": 1539510739,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Makefile: Fix indentation"
+  },
+  {
+    "sha": "a3fadd44d1392fd945f62b23078875a5f39c7fd4",
+    "ct": 1539510716,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Add .editorconfig"
+  },
+  {
+    "sha": "feb05fb2fd4d7541b56ac3eded54071748bde060",
+    "ct": 1539508934,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Add Benbuck Nason to the list of contributors"
+  },
+  {
+    "sha": "8e742e48690f0fb947658a8e106d0094129460a9",
+    "ct": 1539379799,
+    "author": "Benbuck Nason <bnason@netflix.com>",
+    "subject": "Fix most of the issues reported by the Visual Studio code analysis tool."
+  },
+  {
+    "sha": "e2162adeedc1c4fca3e2a315dca174ca80e7b644",
+    "ct": 1539210643,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Squashed 'tests/json-patch-tests/' changes from 99264bb..9ecd703"
+  },
+  {
+    "sha": "08103f048e5f54c8f60aaefda16761faf37114f2",
+    "ct": 1537550982,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release version 1.7.8"
+  },
+  {
+    "sha": "ace800e444435b291725c28c7984c8b656e38c74",
+    "ct": 1537550905,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Update changelog for 1.7.8"
+  },
+  {
+    "sha": "00544a4a74a77fb91c9d76a425144c4e7fdbbd47",
+    "ct": 1537550761,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Contributors: Add Zach Hindes"
+  },
+  {
+    "sha": "d9fe34bade211088b0c8f5db4e4ac9d09cc12a92",
+    "ct": 1537193420,
+    "author": "Zach Hindes <zach@dowhatnow.net>",
+    "subject": "Add newline to end of unity_setup.c"
+  },
+  {
+    "sha": "f25b8448e47360a807b4b5fae3a84092c84f1468",
+    "ct": 1536784350,
+    "author": "Zach Hindes <zach@dowhatnow.net>",
+    "subject": "Support default __stdcall calling convention on tests as well"
+  },
+  {
+    "sha": "ad2cb5b7eabd0e4803bdb9402258f0f75c7bd507",
+    "ct": 1536089781,
+    "author": "Zach Hindes <zach@dowhatnow.net>",
+    "subject": "Enable build and test on Windows"
+  },
+  {
+    "sha": "f32703a7a1990b6b7c97d14a8ef6818badd2d835",
+    "ct": 1535577946,
+    "author": "Zach Hindes <zach@dowhatnow.net>",
+    "subject": "Support default __stdcall calling convention (/Gz) on Windows"
+  },
+  {
+    "sha": "86234db0959e7c1533948d825335a14e0dfabad5",
+    "ct": 1526933301,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release cJSON v1.7.7"
+  },
+  {
+    "sha": "af5b4911de6e00306370460d978ac1654d3aeaec",
+    "ct": 1526932807,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Fix memory leak if realloc returns NULL"
+  },
+  {
+    "sha": "787d651e8131c6394c6ff844f108e1a53012949f",
+    "ct": 1525808013,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Contributors: Add Zhao Zhixu"
+  },
+  {
+    "sha": "0d5ecc11b6af3fc8869b80520804e83ec44d8487",
+    "ct": 1525790714,
+    "author": "Zhao Zhixu <zzx.2013@qq.com>",
+    "subject": "fix typo"
+  },
+  {
+    "sha": "529ec06abbc0aebac4ef719257d7b03efa643d64",
+    "ct": 1524986408,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Makefile: Fix #263, use $(CC) instead of 'gcc' for detecting the version"
+  },
+  {
+    "sha": "3349978268ea8f8ace9bde1cb30bce922513fbe1",
+    "ct": 1524779931,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "cJSON.c: Remove unnecessary include of float.h, fix #259"
+  },
+  {
+    "sha": "cbc05de76fbd4dfff17b5626d5cfe9ec922b1f4a",
+    "ct": 1523593950,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release version 1.7.6"
+  },
+  {
+    "sha": "7996a4a2eeee6339703259e799c42814ccf79daa",
+    "ct": 1523592746,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Readme: Deprecate the Makefile"
+  },
+  {
+    "sha": "ed8fefc9ca8fe0c8c21001ad5dc27daee8801e1c",
+    "ct": 1523592213,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Makefile: Fix #252, put soname in the ELF file"
+  },
+  {
+    "sha": "e6869c2e0370b7139819521b5c4e1a9ef0bf392a",
+    "ct": 1523586749,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "cJSON_Utils.h: Add include guards and extern C for C++"
+  },
+  {
+    "sha": "0e0c463491004d0e69aad1368450e92d6647dff3",
+    "ct": 1521746957,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release version 1.7.5"
+  },
+  {
+    "sha": "2336a0348d2613ed580d25f90bd596db12560bfd",
+    "ct": 1521746934,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Contributors: Add Bob Kocisko"
+  },
+  {
+    "sha": "5d50f4efe1f82f1f1210c4900a8cbf5356630b6c",
+    "ct": 1521746910,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Contributors: Thank all the non-code contributors"
+  },
+  {
+    "sha": "d26a42af8d9af7931c0e47055240a768a6e4139f",
+    "ct": 1521731429,
+    "author": "Bob Kocisko <rkocisko@gmail.com>",
+    "subject": "json patch: adding to a subfield of a non-object now fails as expected"
+  },
+  {
+    "sha": "5da9edc8b145d4f335267a23076c63a90a78b672",
+    "ct": 1520017056,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release version 1.7.4"
+  },
+  {
+    "sha": "22a7d04fa004462e0dca35c3cc7809bea38e65f9",
+    "ct": 1520016595,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "add_item_to_object: Fix use-after-free when string is aliased"
+  },
+  {
+    "sha": "a559eac472652e8098939af8828ff59eda3a66ae",
+    "ct": 1518034595,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release version 1.7.3"
+  },
+  {
+    "sha": "d514bb866ef9d7d8ab394fbce5168c3b45f7c504",
+    "ct": 1518028619,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Fix #241, potential double free"
+  },
+  {
+    "sha": "27caa364b0d05d4f2dbd51f2a3ff8be58d35cae1",
+    "ct": 1517913521,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Release version 1.7.2"
+  },
+  {
+    "sha": "f47271f4556c6b4fa2f6cd8e50806bb1d7f35237",
+    "ct": 1517912643,
+    "author": "Max Bruckner <max@maxbruckner.de>",
+    "subject": "Fix pkgconfig and installation. Thanks @zeerd for reporting"
+  }
+]

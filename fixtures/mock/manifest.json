@@ -1,0 +1,60 @@
+{
+  "generated_at_utc": "2026-10-06T13:32:52+00:00",
+  "source": "repo-references/*.csv (+ optional data/repos clones)",
+  "repos": [
+    {
+      "id": "cjson",
+      "name": "cJSON",
+      "source": "https://github.com/DaveGamble/cJSON.git",
+      "ref_sha": "6d9f2443ab071f86e5d9b43025a40929ec41c46c",
+      "commit_count": 955,
+      "status": "ready",
+      "progress": 1.0,
+      "authors_count": 107,
+      "files_count": 245,
+      "dirs_count": 45,
+      "error": null,
+      "fixtures": {
+        "commits": true,
+        "series": true
+      },
+      "note": null
+    },
+    {
+      "id": "redis",
+      "name": "redis",
+      "source": "https://github.com/redis/redis.git",
+      "ref_sha": "b540ca49cba815f3fbe634363c3df68d4f4f127a",
+      "commit_count": 11874,
+      "status": "ready",
+      "progress": 1.0,
+      "authors_count": 1034,
+      "files_count": 2863,
+      "dirs_count": 204,
+      "error": null,
+      "fixtures": {
+        "commits": false,
+        "series": false
+      },
+      "note": "commits/series absent: clone data/repos/redis"
+    },
+    {
+      "id": "git",
+      "name": "git",
+      "source": "https://github.com/git/git.git",
+      "ref_sha": "5a7d1e8045ce66c908f62598e26cbb8df7b39a90",
+      "commit_count": 61101,
+      "status": "ready",
+      "progress": 1.0,
+      "authors_count": 2498,
+      "files_count": 7319,
+      "dirs_count": 295,
+      "error": null,
+      "fixtures": {
+        "commits": false,
+        "series": false
+      },
+      "note": "commits/series absent: clone data/repos/git"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cjson",
+  "name": "cJSON",
+  "source": "https://github.com/DaveGamble/cJSON.git",
+  "ref_sha": "6d9f2443ab071f86e5d9b43025a40929ec41c46c",
+  "commit_count": 955,
+  "status": "ready",
+  "progress": 1.0,
+  "authors_count": 107,
+  "files_count": 245,
+  "dirs_count": 45,
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "git",
+  "name": "git",
+  "source": "https://github.com/git/git.git",
+  "ref_sha": "5a7d1e8045ce66c908f62598e26cbb8df7b39a90",
+  "commit_count": 61101,
+  "status": "ready",
+  "progress": 1.0,
+  "authors_count": 2498,
+  "files_count": 7319,
+  "dirs_count": 295,
+  "error": null
+}
