@@ -13,8 +13,8 @@ reproduce the reference CSVs **exactly** for cJSON → redis → git.
 3. Attribute every entry verbatim to its path; rename pairs → **new path**; skip binaries (`-`).
 4. Author = `%an <%ae>` raw; dates = `%ct`; no mailmap by default (merge overlay is read-time, Contract B).
 5. Materialise per-commit directory rollups incl. root `/` (needed for exact `modifications` counts).
-6. `modifications` counts commits with λ>0; store 0/0 touch-markers separately for universe reconstruction.
-7. Floats exported with Python `repr()`.
+6. `modifications` counts commits with λ>0; 0/0 entries (pure renames) create an all-zero ALL row but no author rows (author rows need churn > 0).
+7. Floats exported with Python `repr()`; rates use multiply-by-reciprocal `x * (1/|H|)` — direct division is 1 ulp off.
 
 ## Deliverables
 - `scan` (streaming parser → SQLite, progress logging, idempotent), `metrics` query layer, `export` CLI.

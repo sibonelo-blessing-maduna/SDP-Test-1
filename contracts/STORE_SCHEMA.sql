@@ -22,9 +22,10 @@ CREATE TABLE IF NOT EXISTS commits (
 CREATE INDEX IF NOT EXISTS idx_commits_ct     ON commits(ct);
 CREATE INDEX IF NOT EXISTS idx_commits_author ON commits(author);
 
--- Per-commit file changes. One row per (commit, path) with a real change (lambda > 0),
--- plus "touch markers" (added=removed=0) for pure renames / mode-only changes, so the
--- file universe can be reconstructed exactly. Binary files are not stored at all.
+-- Per-commit file changes: one row per (commit, new path). Includes 0/0 "touch markers"
+-- for pure renames — they create the file object (an all-zero ALL row) but no author rows
+-- (author rows require author churn > 0 for that object; enforced in metrics queries).
+-- Binary files are not stored at all. (Pinned against repo-references/*.csv.)
 CREATE TABLE IF NOT EXISTS file_stats (
     sha     TEXT NOT NULL,
     path    TEXT NOT NULL,        -- new path for renames
@@ -68,5 +69,6 @@ CREATE TABLE IF NOT EXISTS scan_log (
 --     |H|   = COUNT(*) FROM commits (filtered)   -- includes commits with no changes
 --     modifications = COUNT(*) of stats rows with added+removed > 0
 --     author rows: GROUP BY commits.author (LEFT JOIN author_merges for merged name)
+--     author rows only when SUM(added+removed) > 0 for that (path, author)
 --     modification_frequency = modifications/|H|; churn_rate = churn/|H|
 --     ownership = author churn / object churn (0 when object churn = 0)
