@@ -33,18 +33,19 @@ Row set per object `o ∈ H[F] ∪ H[D]`:
 one `ALL` row, then one row per author who touched `o` (author rows sorted: by added desc as in reference — irrelevant, validator matches on keys).
 
 Floats are written with Python `repr()` (shortest round-trip), exactly like the reference files.
+Rates are computed as `x * (1/|H|)` (multiply by reciprocal) — direct division differs by up to 1 ulp and breaks byte compatibility. `ownership` is a direct division `churn_a / churn_ALL`.
 Rows ordered as: repository rows, then directories (path asc), then files (path asc) — order is not part of the contract; consumers must match by `(object_type, path, author)`.
 
 ## 2. Matching semantics (empirically pinned against all three reference CSVs)
 
 1. Universe H̄: `git rev-list --no-merges <ref>` — `commit_count` = its size.
 2. Per-commit entries: `git log --no-merges --numstat -z -M50% <ref>` — **never path-filtered** (path filters invoke history simplification and drop commits).
-3. Attribution: every numstat entry is attributed **verbatim to its path** (`$path` field). Rename pairs detected at 50% similarity are attributed to the **new path**. Do not create synthetic `old => new` paths.
+3. Attribution: every numstat entry is attributed **verbatim to its path** (`$path` field). Rename pairs detected at 50% similarity are attributed to the **new path**; `0/0` entries (pure renames) are kept as touch markers — they create the new-path object (all-zero `ALL` row) but **no author rows**. Do not create synthetic `old => new` paths.
 4. Binary entries (`-\t-\t...`) are skipped entirely.
 5. Author identity: `%an <%ae>` verbatim; committer date `%ct` for all time filters.
 6. Directory rows = rollup over every ancestor directory (including `/`) of each changed file, **per commit** (needed for correct `modifications` counting).
-7. `modifications`: count commits where λ>0 — a pure mode change / pure `0/0` rename is *not* a modification.
-8. Author rows: per `(path, author)` sums over that author's commits; `ownership = churn_a / churn_ALL`.
+7. `modifications`: count commits where λ>0 — a pure mode change / pure `0/0` rename is *not* a modification (it produces only the all-zero ALL row).
+8. Author rows: per `(path, author)` sums over that author's commits; emitted **only when the author's total churn for the object is > 0**; `ownership = churn_a / churn_ALL`.
 9. Empty-string cells: `modification_frequency` + `churn_rate` on author rows; `ownership` on ALL rows.
 
 ## 3. CLI (reference implementation: `backend/rat_engine`)

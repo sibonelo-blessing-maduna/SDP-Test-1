@@ -83,7 +83,7 @@ def main() -> int:
 
     per_type = Counter(k[0] for k in missing)
     per_type_extra = Counter(k[0] for k in extra)
-    per_type_mis = Counter(k[0] for _, k, _, _ in mismatches)
+    per_type_mis = Counter(m[1] for m in mismatches)
 
     ok = not (missing or extra or mismatches) and cc_ok
     print(f"reference : {args.reference}  ({len(ref)} rows)")
